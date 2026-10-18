@@ -1696,7 +1696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c06139d-aedb-4db7-abb9-66217961db9b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 43.18 111.76 0)
 			(effects
 				(font
@@ -1746,7 +1746,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1762,7 +1762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a574aa2-f277-414b-861c-3c5cc22aac23")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -1812,7 +1812,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1828,7 +1828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfe6ded-72d0-4fc1-864f-fa75365dfff0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 62.23 111.76 0)
 			(effects
 				(font
@@ -1878,7 +1878,7 @@
 		(instances
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar123_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 72.39 86.36 0)
 			(effects
 				(font
@@ -2039,7 +2039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945a4db3-2dcf-4113-931b-5690b19d8daf")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 100.33 135.89 0)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2105,7 +2105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d471d2c-dc08-482b-a1de-647f2bc13fc7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 106.68 111.76 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 		(instances
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2171,7 +2171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2525195-91d5-4af2-b26e-0c1fb06c3bfc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 106.68 83.82 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2237,7 +2237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1e27475-ce94-4194-9947-b30282a639d4")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 66.04 95.2499 0)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2307,7 +2307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c3a518-f9ca-45fd-a119-2f5f300498ba")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 110.49 95.2499 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 		(instances
 			(project ""
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
