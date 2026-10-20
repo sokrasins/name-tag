@@ -940,6 +940,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 154.94) (xy 212.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fba10a2-c73e-495a-82fb-5bc4c2e64698")
+	)
+	(wire
+		(pts
 			(xy 90.17 81.28) (xy 90.17 83.82)
 		)
 		(stroke
@@ -1220,6 +1230,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 142.24) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ea5ebb-3933-4a6e-aaee-bc7303c403d8")
+	)
+	(wire
+		(pts
 			(xy 181.61 71.12) (xy 181.61 73.66)
 		)
 		(stroke
@@ -1320,6 +1340,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 149.86) (xy 234.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ee6412-ad5c-4f24-a632-930a6e7aa4d0")
+	)
+	(wire
+		(pts
 			(xy 262.89 99.06) (xy 265.43 99.06)
 		)
 		(stroke
@@ -1370,6 +1400,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 132.08) (xy 212.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3f58c2-2070-449b-a5e6-160699743035")
+	)
+	(wire
+		(pts
 			(xy 242.57 91.44) (xy 242.57 93.98)
 		)
 		(stroke
@@ -1397,6 +1437,16 @@
 			(type default)
 		)
 		(uuid "72b94d3e-727d-4ccf-a1a6-d6e3cd6f33e8")
+	)
+	(wire
+		(pts
+			(xy 242.57 132.08) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74087ff1-5491-4914-8545-6fded4b33ac1")
 	)
 	(wire
 		(pts
@@ -1430,6 +1480,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 149.86) (xy 204.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea4809e-1dcb-4df8-8ab9-814112f22ae1")
+	)
+	(wire
+		(pts
 			(xy 90.17 104.14) (xy 90.17 106.68)
 		)
 		(stroke
@@ -1437,6 +1497,16 @@
 			(type default)
 		)
 		(uuid "7ef03db6-9a30-49e5-b5cc-39854cf13030")
+	)
+	(wire
+		(pts
+			(xy 262.89 149.86) (xy 265.43 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a90bce-31b8-4904-b533-315aa61fe8a0")
 	)
 	(wire
 		(pts
@@ -1510,6 +1580,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 132.08) (xy 273.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9853e0-bc3f-44b9-aba4-30161fa768c1")
+	)
+	(wire
+		(pts
 			(xy 201.93 99.06) (xy 204.47 99.06)
 		)
 		(stroke
@@ -1557,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "97d11f7d-e2bd-455d-90c1-99ea77cdda39")
+	)
+	(wire
+		(pts
+			(xy 273.05 121.92) (xy 273.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d8c05c-2085-4bb9-b6ef-608bbe60fb8c")
 	)
 	(wire
 		(pts
@@ -1670,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 154.94) (xy 273.05 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a756bb06-6731-44dd-976e-ef7528cecbb3")
+	)
+	(wire
+		(pts
 			(xy 120.65 40.64) (xy 120.65 43.18)
 		)
 		(stroke
@@ -1677,6 +1777,16 @@
 			(type default)
 		)
 		(uuid "aacfcf67-b5f1-4568-8c28-b8c1c4aadad7")
+	)
+	(wire
+		(pts
+			(xy 212.09 121.92) (xy 212.09 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6967d7-d68c-4331-abcd-bb8c07b0408a")
 	)
 	(wire
 		(pts
@@ -1720,6 +1830,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 142.24) (xy 212.09 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be54e6c7-a083-48b4-aaea-87d893eee0a2")
+	)
+	(wire
+		(pts
 			(xy 151.13 53.34) (xy 151.13 55.88)
 		)
 		(stroke
@@ -1730,6 +1850,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 121.92) (xy 242.57 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf756acd-8720-4e31-a083-0f47f3cfa562")
+	)
+	(wire
+		(pts
 			(xy 19.05 48.26) (xy 21.59 48.26)
 		)
 		(stroke
@@ -1737,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "bffdec5a-326d-4dbf-b1f9-9f758036105d")
+	)
+	(wire
+		(pts
+			(xy 273.05 142.24) (xy 273.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3eba3be-d2e1-4846-b2b8-34f2ae2e0631")
 	)
 	(wire
 		(pts
@@ -1757,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "c6d3ab1e-5106-4ae8-93ec-5f8e1e1e285f")
+	)
+	(wire
+		(pts
+			(xy 242.57 154.94) (xy 242.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca12a796-5fd1-40f6-94de-6eefd1e4ba6d")
 	)
 	(wire
 		(pts
@@ -2117,6 +2267,17 @@
 	)
 	(hierarchical_label "CTRL"
 		(shape input)
+		(at 201.93 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "278446d0-8022-4ec9-ad02-1b95368de7a1")
+	)
+	(hierarchical_label "CTRL"
+		(shape input)
 		(at 201.93 48.26 180)
 		(effects
 			(font
@@ -2227,6 +2388,17 @@
 	)
 	(hierarchical_label "CTRL"
 		(shape input)
+		(at 262.89 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a06abc7e-1182-4ad2-ba4f-4bd9cd63d0c4")
+	)
+	(hierarchical_label "CTRL"
+		(shape input)
 		(at 232.41 48.26 180)
 		(effects
 			(font
@@ -2235,6 +2407,17 @@
 			(justify right)
 		)
 		(uuid "a8ac4b77-1ae6-4cca-a0ce-01fcb3b11a54")
+	)
+	(hierarchical_label "CTRL"
+		(shape input)
+		(at 232.41 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8c61075-870f-437c-a3ad-13b0a62301c2")
 	)
 	(hierarchical_label "CTRL"
 		(shape input)
@@ -2542,7 +2725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 153.67 88.8999 0)
 			(effects
 				(font
@@ -2754,7 +2937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 184.15 88.8999 0)
 			(effects
 				(font
@@ -2956,7 +3139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 31.75 38.0999 0)
 			(effects
 				(font
@@ -3068,6 +3251,72 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d8f293-64dd-4a2f-ac49-108ea002f95b")
+		(property "Reference" "#PWR059"
+			(at 242.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 242.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc2528dd-5feb-48f5-87c2-87aceeef164c")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 92.71 38.0999 0)
 			(effects
 				(font
@@ -3956,6 +4205,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 270.51 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32d42abd-101b-4a07-9b77-2bb9bdf73556")
+		(property "Reference" "Q27"
+			(at 276.86 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 276.86 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 275.59 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 270.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f988a911-ad6f-4377-9b9a-2caeb5e70c71")
+		)
+		(pin "3"
+			(uuid "cad84bae-ee81-4369-9b73-e210f32150e5")
+		)
+		(pin "2"
+			(uuid "d91778ef-6131-4b03-96b5-e4398a368504")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 242.57 77.47 90)
 		(unit 1)
@@ -4589,6 +4914,228 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 209.55 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41b43938-8dc1-4526-823e-48fff8a1a320")
+		(property "Reference" "Q25"
+			(at 215.9 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 215.9 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 214.63 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 214.63 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 209.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907b9840-4497-43f7-8f4a-3bc036ca837b")
+		)
+		(pin "3"
+			(uuid "382e0dc9-bbc9-4c79-b2fe-441e25859312")
+		)
+		(pin "2"
+			(uuid "3698de06-ada6-426c-80cc-a194091d0b5e")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 240.03 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41b98a6f-b455-491e-b0cf-b5ff1d829290")
+		(property "Reference" "Q26"
+			(at 246.38 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 246.38 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 245.11 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 240.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "041e2f53-d239-4497-94f6-bc29a946027a")
+		)
+		(pin "3"
+			(uuid "0e91118c-f7f0-45b4-b68e-0d2616570bba")
+		)
+		(pin "2"
+			(uuid "a83f8c7c-91f0-43d6-a5cd-53c0d491de9a")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 273.05 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cbbadb-8bb9-4a0d-8ced-47553b6dddf3")
+		(property "Reference" "R27"
+			(at 275.59 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 275.59 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 271.272 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 273.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0acf2f8c-cc4c-4c4f-ac15-9c1f90fdd6e6")
+		)
+		(pin "1"
+			(uuid "237b73c1-0324-4eba-bc05-7d0d950c8d21")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 181.61 36.83 0)
 		(unit 1)
@@ -4607,7 +5154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 184.15 38.0999 0)
 			(effects
 				(font
@@ -4653,6 +5200,72 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 273.05 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4922a3f6-662e-4f52-b9b3-06eab978cf6e")
+		(property "Reference" "#PWR060"
+			(at 273.05 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 273.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aee399f-7f3a-4812-9e59-1d3c0987e91e")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4753,7 +5366,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 275.59 38.0999 0)
 			(effects
 				(font
@@ -5029,6 +5642,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.05 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fac03f0-d85d-45ec-9100-cc9b76c741f4")
+		(property "Reference" "#PWR062"
+			(at 273.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d1e424-bca0-4507-9fe2-64d1dd4d0d15")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 181.61 71.12 0)
 		(unit 1)
@@ -5189,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 92.71 88.8999 0)
 			(effects
 				(font
@@ -5386,6 +6065,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 212.09 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e21fdf1-ffbd-4c8a-b8a7-1ede665796e3")
+		(property "Reference" "R25"
+			(at 214.63 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 214.63 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 210.312 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ad09eb4-4b07-4cf9-9c74-d3a678076abe")
+		)
+		(pin "1"
+			(uuid "92cc5793-eb7c-4782-9523-bc190bb893a9")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 157.48 0)
 		(unit 1)
@@ -5536,7 +6285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 153.67 38.0999 0)
 			(effects
 				(font
@@ -5672,7 +6421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 275.59 88.8999 0)
 			(effects
 				(font
@@ -5742,7 +6491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 62.23 88.8999 0)
 			(effects
 				(font
@@ -5812,7 +6561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 123.19 88.8999 0)
 			(effects
 				(font
@@ -5924,6 +6673,76 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77f34d41-f913-4097-86d6-ba39342caee6")
+		(property "Reference" "R26"
+			(at 245.11 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 245.11 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 240.792 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e753063a-34a8-477d-a9b5-7a27ef9dd63d")
+		)
+		(pin "1"
+			(uuid "b719db63-a4af-4f4b-aa3e-9f93910656bc")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 245.11 88.8999 0)
 			(effects
 				(font
@@ -6526,7 +7345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 62.23 38.0999 0)
 			(effects
 				(font
@@ -7093,6 +7912,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 242.57 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e1f8cd-48f2-4e0b-9614-d748a55ee487")
+		(property "Reference" "#PWR061"
+			(at 242.57 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "289da412-a7c0-480f-838c-83434a247235")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 242.57 36.83 0)
 		(unit 1)
@@ -7111,7 +7996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 245.11 38.0999 0)
 			(effects
 				(font
@@ -7379,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 153.67 139.6999 0)
 			(effects
 				(font
@@ -7425,6 +8310,85 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 212.09 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a58189-adb6-4ed4-8435-eae2fe165b20")
+		(property "Reference" "D25"
+			(at 215.9 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 215.9 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "484df46b-0cb1-4523-b277-d328cf214af7")
+		)
+		(pin "1"
+			(uuid "1da7b00c-4b48-4b28-8bdd-afd34ffce1c8")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -7591,7 +8555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 184.15 139.6999 0)
 			(effects
 				(font
@@ -7803,7 +8767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 123.19 139.6999 0)
 			(effects
 				(font
@@ -7873,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 214.63 88.8999 0)
 			(effects
 				(font
@@ -7943,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 123.19 38.0999 0)
 			(effects
 				(font
@@ -8075,6 +9039,85 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 273.05 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae0a5a41-3479-4bab-a4c4-406215ea2f27")
+		(property "Reference" "D27"
+			(at 276.86 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 276.86 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 273.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 273.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99cbe7a6-5fe1-48f5-93cf-833ed6d970aa")
+		)
+		(pin "1"
+			(uuid "673c283c-bcb2-4b18-ab14-e8e771f28aee")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 212.09 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8171,7 +9214,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 31.75 88.8999 0)
 			(effects
 				(font
@@ -8452,7 +9495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 31.75 139.6999 0)
 			(effects
 				(font
@@ -8598,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 214.63 38.0999 0)
 			(effects
 				(font
@@ -9288,7 +10331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 92.71 139.6999 0)
 			(effects
 				(font
@@ -9555,6 +10598,72 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dabba8dd-a1a2-42df-b9d1-d2c362b5825b")
+		(property "Reference" "#PWR058"
+			(at 212.09 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e20bf291-6e41-4672-9e6c-2901573b6ec8")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -9853,7 +10962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 62.23 139.6999 0)
 			(effects
 				(font
@@ -10120,6 +11229,72 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 212.09 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4619148-ebf0-4871-9af1-ed72a33723e6")
+		(property "Reference" "#PWR057"
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11f2f2b8-fdc7-4dfa-8dd3-0ac9706e2a4d")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10865,6 +12040,85 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 242.57 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe90d291-3181-4b20-8ee7-280dcf13be41")
+		(property "Reference" "D26"
+			(at 246.38 128.5874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 246.38 131.1274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 242.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 242.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 242.57 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a2e36ca-c349-43ec-a94a-c6fdc7b0684d")
+		)
+		(pin "1"
+			(uuid "1236a581-9f24-4d96-9edd-6ec4132d1901")
+		)
+		(instances
+			(project "oven_nametag"
+				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
+					(reference "D26")
 					(unit 1)
 				)
 			)

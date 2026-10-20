@@ -1,3 +1,10 @@
+# Don't include specific price information, yet
+assy_bom.*
+*.csv#
+
+# Don't include zip files
+*.zip
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 

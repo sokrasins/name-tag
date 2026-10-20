@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.7-9.0.7~ubuntu22.04.1"
     },
-    "CreationDate": "2026-10-18T11:44:41-04:00"
+    "CreationDate": "2026-10-19T15:13:53-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "oven_nametag",
-      "GUID": "6f76656e-5f6e-4616-9d65-7461672e6b69",
+      "Name": "nametag_front",
+      "GUID": "6e616d65-7461-4675-9f66-726f6e742e6b",
       "Revision": "rev?"
     },
     "Size": {
       "X": 100.05,
-      "Y": 75.05
+      "Y": 53.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -26,55 +26,52 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.4,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToTrack": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "oven_nametag-F_Cu.gbr",
+      "Path": "nametag_front-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-B_Cu.gbr",
+      "Path": "nametag_front-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-F_Paste.gbr",
+      "Path": "nametag_front-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-B_Paste.gbr",
+      "Path": "nametag_front-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-F_Silkscreen.gbr",
+      "Path": "nametag_front-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-B_Silkscreen.gbr",
+      "Path": "nametag_front-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "oven_nametag-F_Mask.gbr",
+      "Path": "nametag_front-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "oven_nametag-B_Mask.gbr",
+      "Path": "nametag_front-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "oven_nametag-Edge_Cuts.gbr",
+      "Path": "nametag_front-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
