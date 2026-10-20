@@ -1,17 +1,23 @@
 # MAKE Roanoke Name tag
 
-A two-tier, battery-powered, LED-lit "My name is:" name tag for
+A battery-powered, LED-lit "My name is" name tag for
 MAKE Roanoke, designed in KiCad 9.
 
 It is made of two stacked PCBs:
 
 - **Back board:** holds all the electronics, including the battery, power
-  switch, boost converter, brightness pot and 27 LEDs.
+  switch, boost converter, brightness pot and 27 LEDs. This board provides 
+  illumination to highlight the featured on the front board.
 - **Front board:** a plain faceplate with no parts. It has the "My name is:"
-  silkscreen and a wrench graphic, and it covers the LED area of the back board.
+  silkscreen and a wrench graphic, and it covers the LED area of the back 
+  board. The board lacks soldermask so that the wrench and the area with the 
+  individual's name light up when the name tag is on.
 
 The boards line up on four M4 mounting holes and are held together with
-standoffs. A slot at the top of the back board is for a lanyard or clip.
+standoffs. A slot at the top of the back board is for a clip.
+
+This project has been designed explicitly to be built via reflow as part of a 
+class.
 
 ![Back PCB](docs/nametag_back_render.png)
 
@@ -19,11 +25,9 @@ standoffs. A slot at the top of the back board is for a lanyard or clip.
 
 ## How it works
 
-- **Power:** a single AAA cell in a Keystone 2466 holder, switched by an SPDT
-  slide switch.
-- **Boost converter:** a TI TPS613221A (SOT-23-5) with a 4.7 µH inductor and
-  2.2 µF in / 22 µF out capacitors steps the cell up to a +3V3 rail.
-- **LEDs:** 27× 1206 SMD LEDs. Each one has a 1 kΩ current-limiting resistor and
+- **Power:** a single AAA cell switched by an SPDT slide switch.
+- **Boost converter:** a TI TPS613221A steps the cell up to a +3V3 rail.
+- **LEDs:** 27× SMD LEDs. Each one has a 1 kΩ current-limiting resistor and
   a BSS138 N-channel MOSFET low-side switch.
 - **Brightness:** a 10 kΩ Bourns TC33X trimmer potentiometer divides the 3.3 V
   rail and drives the shared `CTRL` gate line of all 27 MOSFETs, so turning it
@@ -50,15 +54,6 @@ standoffs. A slot at the top of the back board is for a lanyard or clip.
 | `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/` | 3D renders of both boards |
-
-## Building
-
-1. Open each `.kicad_pro` in [KiCad](https://www.kicad.org/) 9.0 or newer.
-2. Send each board's `gerbs/` folder to a PCB fab.
-3. Use `nametag_back/bom/ibom.html` in a browser to guide hand assembly of the
-   back board.
-4. Stack the front board over the back board with M4 standoffs, put in a AAA
-   cell, switch it on, and set the brightness with RV1.
 
 ## Open items
 
