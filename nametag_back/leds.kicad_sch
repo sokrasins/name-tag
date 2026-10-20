@@ -870,33 +870,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 151.13 93.98)
+			(xy 90.17 142.24) (xy 90.17 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "035f79c2-eae3-42bc-89d8-e78d6bc1fd5d")
+		(uuid "039cb89b-1d8c-41af-bd87-f4323aa487d8")
 	)
 	(wire
 		(pts
-			(xy 59.69 142.24) (xy 59.69 144.78)
+			(xy 151.13 40.64) (xy 151.13 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "051e132c-f5fc-4fc9-9122-7fcfd04fab8f")
-	)
-	(wire
-		(pts
-			(xy 273.05 91.44) (xy 273.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05987e9f-e5f9-413d-928d-c3617e6a116c")
+		(uuid "04867bb3-912f-4788-8453-250fd77e09e7")
 	)
 	(wire
 		(pts
@@ -910,13 +900,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 40.64) (xy 59.69 43.18)
+			(xy 120.65 91.44) (xy 120.65 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aab17cc-f4e6-41cf-84c1-bb35dc0f2640")
+		(uuid "0b4cfa4a-8527-4058-bd81-25b59923be7c")
 	)
 	(wire
 		(pts
@@ -940,13 +930,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 154.94) (xy 212.09 157.48)
+			(xy 29.21 96.52) (xy 40.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fba10a2-c73e-495a-82fb-5bc4c2e64698")
+		(uuid "0f430b6c-0b57-4e45-bf14-1ce42fb6e470")
 	)
 	(wire
 		(pts
@@ -960,23 +950,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 90.17 55.88)
+			(xy 273.05 96.52) (xy 284.48 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1536f09f-757c-4e91-8252-84802ad451e8")
+		(uuid "0ffbc95e-19db-4964-ab4e-c42a339044d5")
 	)
 	(wire
 		(pts
-			(xy 140.97 99.06) (xy 143.51 99.06)
+			(xy 273.05 45.72) (xy 284.48 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17bf61a6-0a49-4531-93cd-91de54f4837a")
+		(uuid "103633a9-19a3-4174-bc11-1fd38efb43a9")
 	)
 	(wire
 		(pts
@@ -1010,16 +1000,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 149.86) (xy 52.07 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f62d618-1d38-4908-ba81-a1c431961b4c")
-	)
-	(wire
-		(pts
 			(xy 151.13 30.48) (xy 151.13 33.02)
 		)
 		(stroke
@@ -1030,13 +1010,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 142.24) (xy 181.61 144.78)
+			(xy 151.13 147.32) (xy 162.56 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20e520c5-a04f-4cac-9304-defc757deef8")
+		(uuid "203c2d84-8bb2-48fe-8b0b-ed6a13732a54")
 	)
 	(wire
 		(pts
@@ -1060,26 +1040,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 91.44) (xy 29.21 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b88188-7c9c-44da-afba-57562453c1d6")
-	)
-	(wire
-		(pts
-			(xy 49.53 48.26) (xy 52.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269b4a8c-179c-4ca5-9dd5-1a4514944319")
-	)
-	(wire
-		(pts
 			(xy 212.09 30.48) (xy 212.09 33.02)
 		)
 		(stroke
@@ -1090,33 +1050,43 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 53.34) (xy 120.65 55.88)
+			(xy 120.65 142.24) (xy 120.65 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "281d8116-2beb-4c0b-8d62-fa48010e54ca")
+		(uuid "27f54f9c-6f81-4c37-9aaa-c76481081da2")
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 173.99 99.06)
+			(xy 90.17 147.32) (xy 101.6 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29938424-34c7-4da9-a2cd-70e650ce842d")
+		(uuid "2d12c3cc-159e-426a-8053-832a83732e37")
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 106.68)
+			(xy 151.13 142.24) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f6bf53b-7398-4177-8cd9-dcf2433c2b1d")
+		(uuid "2e2d427e-0047-4938-962d-5b26ed96d42f")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 242.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb7caaf-e4eb-437e-b87b-b770f7fd989c")
 	)
 	(wire
 		(pts
@@ -1130,23 +1100,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 53.34) (xy 212.09 55.88)
+			(xy 29.21 45.72) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31c03b32-c10f-4d3e-a275-41e2b636b857")
+		(uuid "32fc51c9-912b-47d1-bda5-8037f380072e")
 	)
 	(wire
 		(pts
-			(xy 80.01 99.06) (xy 82.55 99.06)
+			(xy 44.45 161.29) (xy 57.15 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34c58f78-62ed-4907-8de5-628161d3ca1d")
+		(uuid "33de0062-f7f3-47d2-bd63-3f2e5f7caaf4")
 	)
 	(wire
 		(pts
@@ -1160,63 +1130,33 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 104.14) (xy 212.09 106.68)
+			(xy 29.21 91.44) (xy 29.21 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38357e07-09ff-4116-95ad-0368ce24d17e")
+		(uuid "3974cd59-02a4-4112-8fea-2ffeb2c343fd")
 	)
 	(wire
 		(pts
-			(xy 273.05 40.64) (xy 273.05 43.18)
+			(xy 59.69 91.44) (xy 59.69 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3898b772-c99e-4a20-b8d8-b91fd0226f8c")
+		(uuid "3d069343-85ff-4e91-aad6-e96b0a31fe79")
 	)
 	(wire
 		(pts
-			(xy 120.65 104.14) (xy 120.65 106.68)
+			(xy 212.09 40.64) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "397d239f-97a4-48cc-88ac-d032e5e11aff")
-	)
-	(wire
-		(pts
-			(xy 171.45 149.86) (xy 173.99 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a518d60-eb5a-41a7-9388-1f4473a01525")
-	)
-	(wire
-		(pts
-			(xy 212.09 91.44) (xy 212.09 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6b147c-2b01-4ed1-b611-71eee2c01396")
-	)
-	(wire
-		(pts
-			(xy 120.65 142.24) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ead9690-a43c-4360-b901-254cc081634d")
+		(uuid "3e20e654-dadf-4c00-8b8a-150b97649f17")
 	)
 	(wire
 		(pts
@@ -1230,13 +1170,33 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 142.24) (xy 242.57 144.78)
+			(xy 120.65 96.52) (xy 132.08 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44ea5ebb-3933-4a6e-aaee-bc7303c403d8")
+		(uuid "42941f29-df45-4eed-b69f-12153a0ac7d9")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4368f2a6-59ee-4723-8b68-e40fadf9f753")
+	)
+	(wire
+		(pts
+			(xy 212.09 147.32) (xy 223.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b860e0-29b1-4115-bbc5-400968633912")
 	)
 	(wire
 		(pts
@@ -1250,6 +1210,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 142.24) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dcbffb-1594-4cc2-8b7c-b63a6d1df652")
+	)
+	(wire
+		(pts
 			(xy 273.05 30.48) (xy 273.05 33.02)
 		)
 		(stroke
@@ -1260,23 +1230,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 48.26) (xy 234.95 48.26)
+			(xy 181.61 45.72) (xy 193.04 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48029128-6f61-4627-8ba8-6581bcc931f5")
-	)
-	(wire
-		(pts
-			(xy 59.69 104.14) (xy 59.69 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498313f4-6028-4ea9-bc5f-1d645090e8fd")
+		(uuid "47d5a563-7453-4f1b-b0fc-dfa65b263a56")
 	)
 	(wire
 		(pts
@@ -1290,86 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 104.14) (xy 151.13 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a932de9-6b4f-4475-822f-88d25bbd40a7")
-	)
-	(wire
-		(pts
-			(xy 90.17 91.44) (xy 90.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ccb8ec5-27f3-49ee-b548-652a1913ad7a")
-	)
-	(wire
-		(pts
-			(xy 181.61 91.44) (xy 181.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d67bab5-870e-44b2-8dec-7d03ce8fc289")
-	)
-	(wire
-		(pts
-			(xy 80.01 149.86) (xy 82.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "516d1a70-80b2-4a0e-b588-d1cf3ebccf50")
-	)
-	(wire
-		(pts
-			(xy 110.49 149.86) (xy 113.03 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "521c92e9-18e8-4cd3-b57f-2e5dfe0c92c1")
-	)
-	(wire
-		(pts
-			(xy 232.41 149.86) (xy 234.95 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ee6412-ad5c-4f24-a632-930a6e7aa4d0")
-	)
-	(wire
-		(pts
-			(xy 262.89 99.06) (xy 265.43 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5534e844-4b7b-4f33-98e0-4c2566a199a1")
-	)
-	(wire
-		(pts
-			(xy 151.13 40.64) (xy 151.13 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5666b854-15af-44c4-8da4-c8e1c45441a5")
-	)
-	(wire
-		(pts
 			(xy 90.17 121.92) (xy 90.17 124.46)
 		)
 		(stroke
@@ -1380,23 +1260,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 53.34) (xy 181.61 55.88)
+			(xy 90.17 45.72) (xy 101.6 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "594b2c61-6725-439d-b3a3-0c516b508bdc")
-	)
-	(wire
-		(pts
-			(xy 242.57 40.64) (xy 242.57 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59592002-d591-4439-9223-0908fdfccd15")
+		(uuid "5ea66ab5-a520-45c9-9283-9eea42d36f60")
 	)
 	(wire
 		(pts
@@ -1410,23 +1280,43 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 91.44) (xy 242.57 93.98)
+			(xy 57.15 161.29) (xy 57.15 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6632d50c-d429-4220-9f71-997273eec30f")
+		(uuid "658378a6-349f-4fb4-9520-7d6b8edf76ad")
 	)
 	(wire
 		(pts
-			(xy 212.09 40.64) (xy 212.09 43.18)
+			(xy 181.61 91.44) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7178e2c2-cac4-4927-b56a-7dc7d15f7f87")
+		(uuid "6a813020-edd4-42e9-80ab-492b8efe15e7")
+	)
+	(wire
+		(pts
+			(xy 59.69 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6effde27-000f-4dcf-a98b-c68c34c55879")
+	)
+	(wire
+		(pts
+			(xy 242.57 45.72) (xy 254 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712071a4-d40f-4539-a40b-bbe14140b298")
 	)
 	(wire
 		(pts
@@ -1470,6 +1360,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 142.24) (xy 181.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b264d7-3bf6-488c-9456-659b1fef660d")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 90.17 33.02)
 		)
 		(stroke
@@ -1480,83 +1380,43 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 149.86) (xy 204.47 149.86)
+			(xy 212.09 45.72) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ea4809e-1dcb-4df8-8ab9-814112f22ae1")
+		(uuid "79f839fd-60a7-43f1-a012-5bfa2b686dc4")
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 90.17 106.68)
+			(xy 242.57 91.44) (xy 242.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ef03db6-9a30-49e5-b5cc-39854cf13030")
+		(uuid "81103e9c-7b0c-40ff-958f-b5248443efdb")
 	)
 	(wire
 		(pts
-			(xy 262.89 149.86) (xy 265.43 149.86)
+			(xy 120.65 40.64) (xy 120.65 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83a90bce-31b8-4904-b533-315aa61fe8a0")
+		(uuid "82a76821-e6eb-4787-a843-184f5e29971a")
 	)
 	(wire
 		(pts
-			(xy 90.17 40.64) (xy 90.17 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e62395-875f-4f4e-a42d-5d0de185e422")
-	)
-	(wire
-		(pts
-			(xy 151.13 154.94) (xy 151.13 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e8b28c-9b23-4316-beab-769869ed0538")
-	)
-	(wire
-		(pts
-			(xy 29.21 40.64) (xy 29.21 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88caa167-fff6-49db-9b1c-23a5df322a77")
-	)
-	(wire
-		(pts
-			(xy 29.21 53.34) (xy 29.21 55.88)
+			(xy 57.15 176.53) (xy 57.15 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89b39ee4-8a0d-454d-aa90-28c5fd470d0a")
-	)
-	(wire
-		(pts
-			(xy 90.17 154.94) (xy 90.17 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a7ece62-0146-46e9-8a87-0b387b07e541")
 	)
 	(wire
 		(pts
@@ -1590,26 +1450,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 204.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fee1073-2703-4873-88bb-c047b952404d")
-	)
-	(wire
-		(pts
-			(xy 201.93 48.26) (xy 204.47 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9007e936-4c2b-46a5-9be3-35e032a34aeb")
-	)
-	(wire
-		(pts
 			(xy 90.17 132.08) (xy 90.17 134.62)
 		)
 		(stroke
@@ -1620,23 +1460,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 173.99 48.26)
+			(xy 59.69 40.64) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96fe90fa-9236-4b27-969d-28834f5d2ca7")
+		(uuid "95a371a2-6d31-4261-948e-c2501226eeca")
 	)
 	(wire
 		(pts
-			(xy 232.41 99.06) (xy 234.95 99.06)
+			(xy 242.57 147.32) (xy 254 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97d11f7d-e2bd-455d-90c1-99ea77cdda39")
+		(uuid "95cd6c33-577a-454d-9ce5-1fcde5ff64dc")
 	)
 	(wire
 		(pts
@@ -1650,23 +1490,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 82.55 48.26)
+			(xy 29.21 142.24) (xy 29.21 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "988e2a86-481e-4f77-90f8-377fffad8b99")
-	)
-	(wire
-		(pts
-			(xy 59.69 53.34) (xy 59.69 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998adf74-d803-4c8d-8d09-c545974dc981")
+		(uuid "9a0c061e-1bd1-4067-bf02-f75a6aa4ca04")
 	)
 	(wire
 		(pts
@@ -1680,26 +1510,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 104.14) (xy 29.21 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cddbeca-a84b-46b7-80d9-d39b895cc12f")
-	)
-	(wire
-		(pts
-			(xy 262.89 48.26) (xy 265.43 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5897c1-34c4-4acf-9ca9-c778a6ad59c4")
-	)
-	(wire
-		(pts
 			(xy 273.05 81.28) (xy 273.05 83.82)
 		)
 		(stroke
@@ -1707,16 +1517,6 @@
 			(type default)
 		)
 		(uuid "9e2715cc-c17b-4aac-a571-8e83c68f0d8b")
-	)
-	(wire
-		(pts
-			(xy 151.13 142.24) (xy 151.13 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed5194e-e8be-4fb7-b273-3763961c434c")
 	)
 	(wire
 		(pts
@@ -1730,16 +1530,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 149.86) (xy 21.59 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05f609e-3ed9-4b95-845b-3d2ece3e033b")
-	)
-	(wire
-		(pts
 			(xy 120.65 20.32) (xy 120.65 22.86)
 		)
 		(stroke
@@ -1750,33 +1540,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 113.03 99.06)
+			(xy 90.17 40.64) (xy 90.17 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6b0203e-818d-4c12-87c2-fb5000d4c65f")
+		(uuid "a8589a3e-4f44-4cab-b7db-463ab554abdf")
 	)
 	(wire
 		(pts
-			(xy 273.05 154.94) (xy 273.05 157.48)
+			(xy 90.17 96.52) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a756bb06-6731-44dd-976e-ef7528cecbb3")
-	)
-	(wire
-		(pts
-			(xy 120.65 40.64) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aacfcf67-b5f1-4568-8c28-b8c1c4aadad7")
+		(uuid "a9dc9133-7ee1-4ca9-97c5-c2641bd1f24b")
 	)
 	(wire
 		(pts
@@ -1790,13 +1570,43 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 242.57 55.88)
+			(xy 59.69 96.52) (xy 71.12 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7a3fd57-d425-4c35-a237-ca79b88a05a8")
+		(uuid "b15a415b-d9c6-4723-b51c-f5b7c1f284f3")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2478bf2-c78b-49c1-898f-03ebb1bc00aa")
+	)
+	(wire
+		(pts
+			(xy 120.65 147.32) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b662d913-406c-44ff-a636-c2bbf3a5a7d4")
+	)
+	(wire
+		(pts
+			(xy 151.13 45.72) (xy 162.56 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baafa7d5-2f68-488c-9c86-dbfd544d6afe")
 	)
 	(wire
 		(pts
@@ -1830,23 +1640,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 142.24) (xy 212.09 144.78)
+			(xy 273.05 91.44) (xy 273.05 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be54e6c7-a083-48b4-aaea-87d893eee0a2")
-	)
-	(wire
-		(pts
-			(xy 151.13 53.34) (xy 151.13 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef4fdb0-11ca-40fa-ad6b-09a24c61535a")
+		(uuid "bebe2b12-2a94-409e-95da-a0932ca40e21")
 	)
 	(wire
 		(pts
@@ -1860,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 48.26) (xy 21.59 48.26)
+			(xy 46.99 171.45) (xy 49.53 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1870,43 +1670,23 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 142.24) (xy 273.05 144.78)
+			(xy 273.05 40.64) (xy 273.05 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3eba3be-d2e1-4846-b2b8-34f2ae2e0631")
+		(uuid "c512cd7d-b1d2-4700-b1aa-85edb2f06f1f")
 	)
 	(wire
 		(pts
-			(xy 59.69 91.44) (xy 59.69 93.98)
+			(xy 242.57 40.64) (xy 242.57 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5380db0-2e5c-48e8-8e95-39a812098d8f")
-	)
-	(wire
-		(pts
-			(xy 181.61 40.64) (xy 181.61 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d3ab1e-5106-4ae8-93ec-5f8e1e1e285f")
-	)
-	(wire
-		(pts
-			(xy 242.57 154.94) (xy 242.57 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca12a796-5fd1-40f6-94de-6eefd1e4ba6d")
+		(uuid "c5e2c122-675a-47cd-b719-8aa952b100a8")
 	)
 	(wire
 		(pts
@@ -1920,13 +1700,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 142.24) (xy 90.17 144.78)
+			(xy 212.09 96.52) (xy 223.52 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb0716be-e069-4125-8712-20dfabb868a1")
+		(uuid "cbf46a87-ed70-4c91-b0fa-980fe4c7c8cd")
 	)
 	(wire
 		(pts
@@ -1940,6 +1720,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 40.64) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4b0770-d923-4673-9b71-43246375f266")
+	)
+	(wire
+		(pts
 			(xy 59.69 132.08) (xy 59.69 134.62)
 		)
 		(stroke
@@ -1950,13 +1740,33 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 53.34) (xy 273.05 55.88)
+			(xy 273.05 142.24) (xy 273.05 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0e6ccdb-3858-4e0f-92e8-e463c21643b8")
+		(uuid "d05a7c12-c8f6-4da1-866f-9a8aceabac86")
+	)
+	(wire
+		(pts
+			(xy 29.21 147.32) (xy 40.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43dc234-73d0-4b48-9129-05c1eb50db2d")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4aed457-707b-4592-85c8-a3b4a354e74f")
 	)
 	(wire
 		(pts
@@ -1970,33 +1780,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 104.14) (xy 273.05 106.68)
+			(xy 273.05 147.32) (xy 284.48 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8d6bca6-de92-4f6e-9415-1012155f9282")
-	)
-	(wire
-		(pts
-			(xy 120.65 154.94) (xy 120.65 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9bd84cb-2794-4068-a5c0-3207b95e7fbb")
-	)
-	(wire
-		(pts
-			(xy 140.97 48.26) (xy 143.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c9be3c-4cc4-4105-901a-2fc2a8c9915a")
+		(uuid "d9555683-ee4c-4078-b1c4-8c0663ca9306")
 	)
 	(wire
 		(pts
@@ -2010,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 40.64) (xy 29.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd08a20c-9f5c-48ed-a9af-b0a4dc6ca0d6")
+	)
+	(wire
+		(pts
 			(xy 273.05 71.12) (xy 273.05 73.66)
 		)
 		(stroke
@@ -2020,23 +1820,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 154.94) (xy 29.21 157.48)
+			(xy 181.61 147.32) (xy 193.04 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "def8c9fa-8109-4551-91c5-ed4e0b9deffa")
-	)
-	(wire
-		(pts
-			(xy 120.65 91.44) (xy 120.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7f83e7-80be-436b-a4db-dada9cc4db31")
+		(uuid "df0d07b3-9242-4eba-b609-9631bd447e8d")
 	)
 	(wire
 		(pts
@@ -2050,33 +1840,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 154.94) (xy 181.61 157.48)
+			(xy 181.61 96.52) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e635e277-ab01-4833-8c07-3a3b0ed49ca2")
-	)
-	(wire
-		(pts
-			(xy 242.57 104.14) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6829da9-fb95-4123-aa7a-e9e7ee9d16d9")
-	)
-	(wire
-		(pts
-			(xy 19.05 99.06) (xy 21.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9262dfa-b23d-4ba6-bb70-53c27b0a6d7c")
+		(uuid "e70a6f43-6ec0-42e3-8a93-585c7822d4d8")
 	)
 	(wire
 		(pts
@@ -2090,13 +1860,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 113.03 48.26)
+			(xy 59.69 147.32) (xy 71.12 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed99d630-d063-44e7-89da-daca28b19b07")
+		(uuid "ecfda2d5-1331-4412-b759-fc66fcc0a5d8")
 	)
 	(wire
 		(pts
@@ -2120,13 +1890,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 154.94) (xy 59.69 157.48)
+			(xy 242.57 96.52) (xy 254 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efded0c8-df22-41a3-8e14-6be85c0b13ca")
+		(uuid "f0c83a0a-f421-4776-9799-de04c9238e03")
 	)
 	(wire
 		(pts
@@ -2140,23 +1910,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 142.24) (xy 29.21 144.78)
+			(xy 212.09 91.44) (xy 212.09 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb6e2861-2c3f-49e7-9912-4b1dfd3493c4")
-	)
-	(wire
-		(pts
-			(xy 140.97 149.86) (xy 143.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0ba0c0-8388-4a39-9848-8c914745b247")
+		(uuid "fbc5d79c-19b5-49de-940e-3ff3d0d04867")
 	)
 	(wire
 		(pts
@@ -2170,16 +1930,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 99.06) (xy 52.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb4cb78-59fb-4333-8398-bc9d02dbff6d")
-	)
-	(wire
-		(pts
 			(xy 29.21 30.48) (xy 29.21 33.02)
 		)
 		(stroke
@@ -2188,20 +1938,309 @@
 		)
 		(uuid "fdc28dff-2a4a-4c93-bc80-836295098165")
 	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 19.05 99.06 180)
+	(wire
+		(pts
+			(xy 212.09 142.24) (xy 212.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd003fe-5f0c-43b9-8d48-d4b052b8e7ad")
+	)
+	(wire
+		(pts
+			(xy 120.65 45.72) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe039131-ab1c-4579-b910-a3b7cd38ebad")
+	)
+	(label "LIGHT_CTRL"
+		(at 162.56 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "0093806a-e048-4ba9-88bf-056aed10047e")
+		(uuid "0abc2642-9a2c-426f-9c88-d970c7ddf4a6")
+	)
+	(label "LIGHT_CTRL"
+		(at 284.48 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e3e7e27-b2d3-4e06-ae24-d09167164d05")
+	)
+	(label "LIGHT_CTRL"
+		(at 101.6 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "120d21fe-54c5-4fbb-8477-123123b31219")
+	)
+	(label "LIGHT_CTRL"
+		(at 132.08 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24d6d221-43f0-47c2-b75e-105c78646820")
+	)
+	(label "LIGHT_CTRL"
+		(at 254 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24df2a3e-b7c4-4621-8455-f13917667ec3")
+	)
+	(label "LIGHT_CTRL"
+		(at 254 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3081d808-fd91-445f-8d26-a61d32fe2ee2")
+	)
+	(label "LIGHT_CTRL"
+		(at 193.04 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3611ae39-70ca-4980-8cba-7641a5273e63")
+	)
+	(label "LIGHT_CTRL"
+		(at 40.64 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57087538-82bc-407a-b08a-f128530cfc68")
+	)
+	(label "LIGHT_CTRL"
+		(at 44.45 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61e6d873-8fab-4681-8fb7-d01dbc62d960")
+	)
+	(label "LIGHT_CTRL"
+		(at 223.52 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6eb56f4b-6f16-48aa-87d6-c2227fe20aad")
+	)
+	(label "LIGHT_CTRL"
+		(at 223.52 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7069e4fb-ca5c-4acf-9e9d-ad8eee685f6e")
+	)
+	(label "LIGHT_CTRL"
+		(at 284.48 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "782d25fd-8e61-4453-a231-9588f8feb2b0")
+	)
+	(label "LIGHT_CTRL"
+		(at 284.48 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "852ee3e8-b38a-4333-afc0-55da93fadb78")
+	)
+	(label "LIGHT_CTRL"
+		(at 162.56 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "865276b3-ff41-4ff4-b0a1-1944ceecae55")
+	)
+	(label "LIGHT_CTRL"
+		(at 71.12 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a1598ca-a7b4-4c5f-bcaf-98a35ae85733")
+	)
+	(label "LIGHT_CTRL"
+		(at 101.6 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ef775d6-2ab6-4ff8-8f50-c4c9e21ae7cb")
+	)
+	(label "LIGHT_CTRL"
+		(at 193.04 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ff5ae5c-81a0-454b-bdca-69954b5f1dde")
+	)
+	(label "LIGHT_CTRL"
+		(at 71.12 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0ded293-4a1d-4b40-bb0c-fd42851f64ea")
+	)
+	(label "LIGHT_CTRL"
+		(at 132.08 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8991135-81df-4185-a1d2-5896ac142c7a")
+	)
+	(label "LIGHT_CTRL"
+		(at 162.56 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9db39ed-f234-4667-8f77-35dfda459476")
+	)
+	(label "LIGHT_CTRL"
+		(at 254 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca022bec-7e0c-4cda-8d95-e9407acb35fb")
+	)
+	(label "LIGHT_CTRL"
+		(at 71.12 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d23bc5e7-d556-484c-bcee-9d384a99bfec")
+	)
+	(label "LIGHT_CTRL"
+		(at 101.6 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d834ba39-9723-4ebf-bf4c-57058c0b3700")
+	)
+	(label "LIGHT_CTRL"
+		(at 132.08 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8e36f86-9a0a-413b-8d6a-b189e3d7f883")
+	)
+	(label "LIGHT_CTRL"
+		(at 40.64 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3325923-431f-4e1f-8b89-8bd9680d1533")
+	)
+	(label "LIGHT_CTRL"
+		(at 193.04 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e96f7f3f-a5bf-404b-9795-8685961d7db7")
+	)
+	(label "LIGHT_CTRL"
+		(at 223.52 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fce8781b-96d5-45af-b632-d48c2903ec16")
+	)
+	(label "LIGHT_CTRL"
+		(at 40.64 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd83a187-b3c5-40d7-8f40-3eb4bf7821a9")
 	)
 	(hierarchical_label "CTRL"
 		(shape input)
-		(at 19.05 48.26 180)
+		(at 46.99 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2209,357 +2248,6 @@
 			(justify right)
 		)
 		(uuid "0d8cef2c-e3ef-4843-9da2-a0e7fbdaff2c")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 140.97 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10f50049-4d2f-461a-adfe-7a8ca45cd8bf")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 110.49 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17369fee-3b00-4b0a-8843-33bbdaa422cb")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 171.45 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1dd450a9-b5da-4cc8-8be5-2974f400c005")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 80.01 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "259ecff3-0ecd-4a82-a510-5142cd58fd98")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 171.45 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25c6a115-aee5-4792-a02d-e717fa7c849c")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 201.93 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "278446d0-8022-4ec9-ad02-1b95368de7a1")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 201.93 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3674def2-d68b-4b29-9a56-a5b3ad3e5379")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 232.41 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "371f5240-67fc-4cdd-8813-e1ea13d32a5b")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 140.97 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41ad7b3e-d77a-43ef-9dcb-c6475a684370")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 80.01 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "518c3f63-151a-4be2-a100-da7d5385c3f0")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 19.05 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e7899b4-36f6-47e0-abeb-efc67cc87024")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 262.89 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b086b15-b707-462a-8ac1-217e72eca590")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 110.49 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8de6a11d-1232-4cd1-9ce8-4cb590cbc21c")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 80.01 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "926186da-daf4-46ba-a0ee-417730db05ec")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 110.49 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9aac9c79-1957-4cd4-9993-39b36a4f6bbb")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 262.89 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9fd13c04-0682-4489-be85-df85542e0970")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 262.89 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a06abc7e-1182-4ad2-ba4f-4bd9cd63d0c4")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 232.41 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8ac4b77-1ae6-4cca-a0ce-01fcb3b11a54")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 232.41 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8c61075-870f-437c-a3ad-13b0a62301c2")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 49.53 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa7e82bb-90b8-44be-bb2c-5b1fcae02709")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 49.53 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b035a0fc-d0dc-419f-bc5e-50ae1e87f98a")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 49.53 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b726c79e-4a94-4537-8edf-eaf35c87f2f9")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 171.45 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8494479-b4db-4f23-9f57-b608cb7a1654")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 140.97 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfb5980f-ba00-4d77-8373-da9d67de684d")
-	)
-	(hierarchical_label "CTRL"
-		(shape input)
-		(at 201.93 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d84f3507-e680-4079-9ba5-3c06a2548ad1")
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 87.63 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "092c7379-bb8d-4c5f-b4dd-c3bde7ebe978")
-		(property "Reference" "Q21"
-			(at 93.98 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 93.98 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 92.71 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 87.63 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a7bde11-4cfe-4ff0-9ff0-5b4bd87d5418")
-		)
-		(pin "3"
-			(uuid "a0f49b50-90be-48d4-afd8-5c593cecfc6d")
-		)
-		(pin "2"
-			(uuid "118cd99e-96a1-471b-a39d-7e6e6cfe017d")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2777,82 +2465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 240.03 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dc25e1d-1e23-4eeb-9388-a2027037a659")
-		(property "Reference" "Q17"
-			(at 246.38 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 246.38 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 245.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 240.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa8ad44b-f9af-4bb7-afc3-59ed13574876")
-		)
-		(pin "3"
-			(uuid "b3879503-617f-45f0-9423-d333b96946ec")
-		)
-		(pin "2"
-			(uuid "1aaf47fa-df8d-4af4-965b-1172b4599849")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 120.65 20.32 0)
 		(unit 1)
@@ -2983,72 +2595,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11f25abf-92eb-498a-9cc8-96ce3279260e")
-		(property "Reference" "#PWR018"
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c53902e6-d380-46ba-8510-f27d6202c50a")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3323,148 +2869,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 179.07 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c71c4b4-2f2f-46f1-a8ac-dcf6b2f7ed2a")
-		(property "Reference" "Q24"
-			(at 185.42 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 185.42 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 184.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 179.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b0da57f-3b0b-4e35-b61d-706653ae6fbc")
-		)
-		(pin "3"
-			(uuid "8d94f8ed-6e6a-459c-b9c4-9bf119005ce6")
-		)
-		(pin "2"
-			(uuid "44902573-8bfb-4f8c-88f4-0ca15966dab3")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d582e8b-2882-47f8-bae9-3e70fcfd1826")
-		(property "Reference" "#PWR021"
-			(at 212.09 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a12fe95-b809-4bcc-a057-e7aa0644c1af")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 59.69 128.27 90)
 		(unit 1)
@@ -3693,148 +3097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 273.05 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "266ec656-34e5-4012-98d4-54b5c6af0d84")
-		(property "Reference" "#PWR027"
-			(at 273.05 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a0a7d8c-458e-4389-a14a-b31b59485c50")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 57.15 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b4bc833-b1f4-4512-b881-b26c889ffb36")
-		(property "Reference" "Q2"
-			(at 63.5 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 63.5 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 62.23 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 62.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 57.15 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03c78ce0-dbff-461a-9c0e-ac376d37f403")
-		)
-		(pin "3"
-			(uuid "b9a573aa-c970-42ba-9bbb-94cde7898f2c")
-		)
-		(pin "2"
-			(uuid "7c1fe30d-e1a1-47ea-8a8e-9ec29fa3acaa")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 29.21 20.32 0)
 		(unit 1)
@@ -3895,386 +3157,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 148.59 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f51aafb-5494-4cfc-9b15-36622b1c51bb")
-		(property "Reference" "Q23"
-			(at 154.94 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 154.94 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 153.67 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 153.67 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 148.59 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "379dc581-0fd4-462e-b1a9-8a275bdbcd4b")
-		)
-		(pin "3"
-			(uuid "de8aebe0-e5ae-498d-abd9-c305b2be8602")
-		)
-		(pin "2"
-			(uuid "11e28d3b-74b0-48cd-a715-c517b2eaae13")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 179.07 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fe01ffc-b9c5-4f1a-82d5-177710e741bc")
-		(property "Reference" "Q6"
-			(at 185.42 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 185.42 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 179.07 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a25ac329-55d3-455f-9741-3d0495c24059")
-		)
-		(pin "3"
-			(uuid "6e74db05-7948-4230-bbc4-e20dc4fcf831")
-		)
-		(pin "2"
-			(uuid "7567008a-2140-467f-a525-2e9076516faa")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 148.59 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30a06c7c-edce-433a-a46f-af9420eefa1d")
-		(property "Reference" "Q5"
-			(at 154.94 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 154.94 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 153.67 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 153.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 148.59 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c65d3e29-b029-40b4-b83e-15548eea4d9e")
-		)
-		(pin "3"
-			(uuid "723cf728-25e8-49cb-b1de-31b65a3384da")
-		)
-		(pin "2"
-			(uuid "6000943c-a067-4535-8062-9cf4818c403d")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 26.67 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31ca5938-9732-4ac6-a027-94d5b8e51fe9")
-		(property "Reference" "Q10"
-			(at 33.02 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 33.02 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 31.75 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 31.75 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 26.67 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51400d53-8c49-41f4-a9f0-f366d386a2c9")
-		)
-		(pin "3"
-			(uuid "6403424f-7040-491a-9101-5732aa3da9f0")
-		)
-		(pin "2"
-			(uuid "f40e9231-85e2-494d-8c80-2abc392a115d")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 270.51 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32d42abd-101b-4a07-9b77-2bb9bdf73556")
-		(property "Reference" "Q27"
-			(at 276.86 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 276.86 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 275.59 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 275.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 270.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f988a911-ad6f-4377-9b9a-2caeb5e70c71")
-		)
-		(pin "3"
-			(uuid "cad84bae-ee81-4369-9b73-e210f32150e5")
-		)
-		(pin "2"
-			(uuid "d91778ef-6131-4b03-96b5-e4398a368504")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -4571,72 +3453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "386402e5-d8bb-4b55-ab38-61ea70d9f7f0")
-		(property "Reference" "#PWR046"
-			(at 59.69 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1244acae-67d6-42b6-afb7-84e82a57a4d8")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 90.17 121.92 0)
 		(unit 1)
@@ -4697,72 +3513,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d4469ea-cff5-452a-9c65-123c11770e9b")
-		(property "Reference" "#PWR042"
-			(at 212.09 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9beda9a-b3b0-4168-800f-0f8c54dae0f3")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4908,158 +3658,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 209.55 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41b43938-8dc1-4526-823e-48fff8a1a320")
-		(property "Reference" "Q25"
-			(at 215.9 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 215.9 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.63 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 214.63 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 209.55 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "907b9840-4497-43f7-8f4a-3bc036ca837b")
-		)
-		(pin "3"
-			(uuid "382e0dc9-bbc9-4c79-b2fe-441e25859312")
-		)
-		(pin "2"
-			(uuid "3698de06-ada6-426c-80cc-a194091d0b5e")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 240.03 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41b98a6f-b455-491e-b0cf-b5ff1d829290")
-		(property "Reference" "Q26"
-			(at 246.38 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 246.38 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 245.11 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 240.03 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "041e2f53-d239-4497-94f6-bc29a946027a")
-		)
-		(pin "3"
-			(uuid "0e91118c-f7f0-45b4-b68e-0d2616570bba")
-		)
-		(pin "2"
-			(uuid "a83f8c7c-91f0-43d6-a5cd-53c0d491de9a")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -5272,82 +3870,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 209.55 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4948ab99-c15b-4381-bc46-9df5c83870b4")
-		(property "Reference" "Q7"
-			(at 215.9 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 215.9 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.63 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 214.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 209.55 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b48e9d2-2754-4d67-8fa5-0122c210fda0")
-		)
-		(pin "3"
-			(uuid "c819a88f-6b1b-4af4-904e-2e7704d5f8a4")
-		)
-		(pin "2"
-			(uuid "75379455-6d80-4623-9c30-1435d7cceccf")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 273.05 36.83 0)
 		(unit 1)
@@ -5419,7 +3941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 55.88 0)
+		(at 57.15 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5428,7 +3950,7 @@
 		(fields_autoplaced yes)
 		(uuid "49e09360-0b7f-4e2e-8334-1cbf13ec38d2")
 		(property "Reference" "#PWR015"
-			(at 29.21 62.23 0)
+			(at 57.15 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +3959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 60.96 0)
+			(at 57.15 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +3967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 55.88 0)
+			(at 57.15 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +3976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 55.88 0)
+			(at 57.15 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +3985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 55.88 0)
+			(at 57.15 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,72 +4164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 273.05 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fac03f0-d85d-45ec-9100-cc9b76c741f4")
-		(property "Reference" "#PWR062"
-			(at 273.05 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d1e424-bca0-4507-9fe2-64d1dd4d0d15")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 181.61 71.12 0)
 		(unit 1)
@@ -5768,82 +4224,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 118.11 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58e7baa5-4d44-4b2c-9f28-2ce2ba823deb")
-		(property "Reference" "Q13"
-			(at 124.46 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 124.46 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 123.19 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 123.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 118.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "442ac014-dd72-4555-874c-87076b197007")
-		)
-		(pin "3"
-			(uuid "22caf216-2340-4ef9-9f1b-d705c9794a79")
-		)
-		(pin "2"
-			(uuid "9d03b72c-b4b6-4110-8939-f2ec0e447194")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -5999,72 +4379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d7a99c6-c24a-4a02-b61e-801c6307aa11")
-		(property "Reference" "#PWR051"
-			(at 90.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cc35e39-e502-408c-bfc3-18c7f2713af9")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 212.09 138.43 0)
 		(unit 1)
@@ -6129,138 +4443,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ea91f05-3064-4192-bbdf-e3d6aca78d74")
-		(property "Reference" "#PWR054"
-			(at 181.61 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f175114e-5fff-4a15-bf44-325d60f81800")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "618e2d19-4c50-4112-8369-43d8d66d8b12")
-		(property "Reference" "#PWR016"
-			(at 59.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec4a6d2e-d11e-4b13-bfa3-4bd889466273")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6613,72 +4795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73f332db-9c16-41b2-9cd5-3676c176b088")
-		(property "Reference" "#PWR020"
-			(at 181.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98f72875-a3f6-4143-b226-98b670478e28")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 242.57 138.43 0)
 		(unit 1)
@@ -6743,138 +4859,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 273.05 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c6e0e22-d5eb-49f3-ac8e-a8e18129b5ad")
-		(property "Reference" "#PWR044"
-			(at 273.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 273.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa2fc3f2-73b8-483e-b418-5def1834ab99")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cc507ad-747d-468b-9e90-49feda30c3c6")
-		(property "Reference" "#PWR022"
-			(at 242.57 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0791d0f5-d5d9-4186-a59a-93c0c92f2646")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7096,158 +5080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 87.63 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83d5f908-8b32-436f-afad-8b8b6dfee854")
-		(property "Reference" "Q12"
-			(at 93.98 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 93.98 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 92.71 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 87.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93d3343a-6918-4bd0-b921-96695f0a9b0c")
-		)
-		(pin "3"
-			(uuid "e40d7ba8-263a-42bf-aeaa-a03205bd2065")
-		)
-		(pin "2"
-			(uuid "dc7c0e12-fb44-4d4b-9571-01557ca8f1e3")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 87.63 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87a6d3a6-3d9b-428c-836b-86ad8e66f9c2")
-		(property "Reference" "Q3"
-			(at 93.98 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 93.98 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 92.71 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 92.71 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0b81b47-c7dd-4ddc-adb6-740abc0f2f27")
-		)
-		(pin "3"
-			(uuid "26c29ec7-92fa-4ccd-8251-37b48f9976b1")
-		)
-		(pin "2"
-			(uuid "400cea26-1b99-4d6e-8eb1-71fefca95b50")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 181.61 26.67 90)
 		(unit 1)
@@ -7397,82 +5229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 270.51 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a189c5a-1436-4bfa-b637-37a1222a45fc")
-		(property "Reference" "Q18"
-			(at 276.86 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 276.86 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 275.59 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 275.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "907ca5b1-58a4-4c00-a6c0-6dcd0ec17553")
-		)
-		(pin "3"
-			(uuid "7145cb27-bbd1-4493-82d1-6c496d5201e3")
-		)
-		(pin "2"
-			(uuid "92414c45-55fa-44e1-9b78-5c5cb5c465b2")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 151.13 128.27 90)
 		(unit 1)
@@ -7552,158 +5308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 270.51 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d21cf11-0d97-4214-a6c1-2ffedfa8f238")
-		(property "Reference" "Q9"
-			(at 276.86 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 276.86 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 275.59 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 275.59 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 270.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc6eeec1-ba74-4a31-8d40-63eca494e69f")
-		)
-		(pin "3"
-			(uuid "3bd8e7d5-7df8-4dc3-9b96-9f83c2792f62")
-		)
-		(pin "2"
-			(uuid "5d017402-6e0a-4b57-940a-012da6a14ca6")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 209.55 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e08efba-175b-4cb3-9c15-a1d0e44e5cf7")
-		(property "Reference" "Q16"
-			(at 215.9 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 215.9 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 214.63 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 214.63 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 209.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57e31e03-941f-4227-9902-f432ceb64737")
-		)
-		(pin "3"
-			(uuid "8d639690-5f4b-4a02-bdda-c8d9a5b199e3")
-		)
-		(pin "2"
-			(uuid "a160703e-8326-4bbd-b20a-1ecf30eb865a")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 181.61 20.32 0)
 		(unit 1)
@@ -7764,214 +5368,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f7d993-cb0f-4722-a2c2-a5060589aae7")
-		(property "Reference" "#PWR029"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbcaa06a-2237-4053-8b03-3ff5e650313b")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 148.59 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96f37868-7ba3-4228-aa06-6fcf2c938c5d")
-		(property "Reference" "Q14"
-			(at 154.94 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 154.94 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 153.67 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 148.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cd7e8ac-c88e-488a-b741-be77bf003d93")
-		)
-		(pin "3"
-			(uuid "84959071-1a7e-4382-a34d-a3a656fc8647")
-		)
-		(pin "2"
-			(uuid "de7a020b-dc02-455b-8a9e-7257fd2ea435")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99e1f8cd-48f2-4e0b-9614-d748a55ee487")
-		(property "Reference" "#PWR061"
-			(at 242.57 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "289da412-a7c0-480f-838c-83434a247235")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8048,72 +5444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9afbeaf9-c896-446d-a030-a3a5ef21b0c4")
-		(property "Reference" "#PWR040"
-			(at 151.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "264f8fb1-43e9-4824-86a4-d1b5681523cd")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 242.57 20.32 0)
 		(unit 1)
@@ -8174,72 +5504,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e0b6039-cdb6-47bd-8205-172cd985f9c5")
-		(property "Reference" "#PWR019"
-			(at 151.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a2abbbf-2a91-4dea-bb00-0d8bb077c219")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8395,148 +5659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a44824dd-b262-4de6-bb80-a7192430a64e")
-		(property "Reference" "#PWR039"
-			(at 120.65 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ae6b84-cb7c-47d7-abf1-8255c90fd899")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 179.07 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4cc5349-8d58-4fa6-9e12-f86099f60720")
-		(property "Reference" "Q15"
-			(at 185.42 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 185.42 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 184.15 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 184.15 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb7d11b5-a3b2-4922-b294-df5b00252093")
-		)
-		(pin "3"
-			(uuid "daf75076-b479-4bab-8d95-228f5ce890cb")
-		)
-		(pin "2"
-			(uuid "3fa0340b-aee4-4aeb-8a5e-0b5345f37f08")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 181.61 138.43 0)
 		(unit 1)
@@ -8667,82 +5789,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 118.11 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6e32d7e-b965-4b99-84c2-158d2e750ccf")
-		(property "Reference" "Q22"
-			(at 124.46 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 124.46 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 123.19 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 123.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 118.11 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3280b877-49d1-45b8-b301-ba3df5f52813")
-		)
-		(pin "3"
-			(uuid "67624b93-e6fa-462b-8263-d78fac7c8ccf")
-		)
-		(pin "2"
-			(uuid "b968e34f-18c4-4d03-80ff-b329c01da9ca")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -9266,72 +6312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b404e3c1-36a9-4c50-85c1-8a4c5753ab21")
-		(property "Reference" "#PWR041"
-			(at 181.61 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fe78714-7eed-44fa-a287-91e7736f8ba6")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 273.05 77.47 90)
 		(unit 1)
@@ -9541,82 +6521,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 26.67 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c01f2ff0-5545-4550-bf3d-2e46190485f8")
-		(property "Reference" "Q19"
-			(at 33.02 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 33.02 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 31.75 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 31.75 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 26.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec1b98b3-a465-4e19-9a68-b4435c495e55")
-		)
-		(pin "3"
-			(uuid "0632ef32-e4a9-40b1-8f31-47cea8ca78a5")
-		)
-		(pin "2"
-			(uuid "22cd9a92-ae5d-436f-bf29-bfdb6ceaf169")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -9904,72 +6808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 29.21 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9ede892-848d-4987-9bf4-6b1d6707494f")
-		(property "Reference" "#PWR045"
-			(at 29.21 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1c4399-33cf-4e9b-abfb-530af87fb17d")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 273.05 20.32 0)
 		(unit 1)
@@ -10168,72 +7006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0a40580-1898-4176-b4c0-60008624b85f")
-		(property "Reference" "#PWR053"
-			(at 151.13 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30305018-170b-46ec-9d45-6942c9622d4e")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 181.61 77.47 90)
 		(unit 1)
@@ -10383,82 +7155,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 240.03 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6bbb112-feca-4db4-9672-e689837f7ad1")
-		(property "Reference" "Q8"
-			(at 246.38 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 246.38 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 245.11 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 240.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44a31289-9320-4702-a665-892b774facaf")
-		)
-		(pin "3"
-			(uuid "951a3b2c-bcf7-4b98-ab1f-38b88643e7b3")
-		)
-		(pin "2"
-			(uuid "151060a9-bf00-4834-80b1-e56ba183ebf8")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 90.17 26.67 90)
 		(unit 1)
@@ -10598,346 +7294,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dabba8dd-a1a2-42df-b9d1-d2c362b5825b")
-		(property "Reference" "#PWR058"
-			(at 212.09 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e20bf291-6e41-4672-9e6c-2901573b6ec8")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 242.57 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc1b803e-51b0-434c-877f-875676b46131")
-		(property "Reference" "#PWR043"
-			(at 242.57 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 242.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd06b0fe-e5b8-468f-82df-f9719c55c855")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddf80341-c4eb-43c2-b311-2cfb388d6da5")
-		(property "Reference" "#PWR017"
-			(at 90.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b7d860e-cfdd-443d-99ee-ad4c8b934bdc")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de36cec7-a7c1-49fb-8a74-32551e3184eb")
-		(property "Reference" "#PWR030"
-			(at 90.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d707feb2-e86d-4757-a1bc-2b4acfc511c1")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 57.15 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df7fd006-ed6d-4637-ae6c-277ff7411112")
-		(property "Reference" "Q11"
-			(at 63.5 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 63.5 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 62.23 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 62.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 57.15 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eed7a3b4-5f31-4b9d-a7ad-4ccc1a6d8171")
-		)
-		(pin "3"
-			(uuid "e9ee811a-d6f0-4e41-ac86-94f94be17b1c")
-		)
-		(pin "2"
-			(uuid "bbc5e3f0-4be8-4442-a5d6-ba4a4df4dd34")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -11094,7 +7450,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 26.67 48.26 0)
+		(at 54.61 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11103,7 +7459,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3471e43-6e3c-487c-8fa7-3930746f6e3c")
 		(property "Reference" "Q1"
-			(at 33.02 46.9899 0)
+			(at 60.96 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +7468,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 33.02 49.5299 0)
+			(at 60.96 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +7477,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 31.75 50.165 0)
+			(at 59.69 173.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +7488,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 31.75 52.07 0)
+			(at 59.69 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +7498,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 26.67 48.26 0)
+			(at 54.61 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,82 +7802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 57.15 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7aaef83-3950-4875-b052-f9f70e7ac999")
-		(property "Reference" "Q20"
-			(at 63.5 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 63.5 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 62.23 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c622045c-d70d-4ba7-a12e-bbe0be59efe1")
-		)
-		(pin "3"
-			(uuid "905b5edf-32f5-4a0e-b106-3feb28f842a8")
-		)
-		(pin "2"
-			(uuid "80134a1d-9fdd-4d24-9d3f-f048bef9fe5f")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 29.21 26.67 90)
 		(unit 1)
@@ -11680,138 +7960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3d30e48-0c9b-41dc-8af1-4ae8213f57c0")
-		(property "Reference" "#PWR052"
-			(at 120.65 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6d5da9d-f034-4e55-9b3d-7dcee000d63f")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5bbeabe-48b0-4b06-a254-2c8e3a7fa49e")
-		(property "Reference" "#PWR028"
-			(at 29.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a0a6acf-458b-44e6-a659-668e3540617e")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 59.69 77.47 90)
 		(unit 1)
@@ -11885,82 +8033,6 @@
 			(project "oven_nametag"
 				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 118.11 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7b8f83b-0cfd-4a97-8428-c8319d9f53c5")
-		(property "Reference" "Q4"
-			(at 124.46 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 124.46 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 123.19 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 123.19 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 118.11 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29e86f6e-04e8-4641-9728-22b939cbff80")
-		)
-		(pin "3"
-			(uuid "944d8c37-9669-4c6f-89e0-d45c5df76e0e")
-		)
-		(pin "2"
-			(uuid "66123f07-083b-49d3-98c3-de1b9c8f10fd")
-		)
-		(instances
-			(project "oven_nametag"
-				(path "/eb928b2b-e639-4c9d-8baa-dc174c286d02/70eb00d7-5ed7-45dd-a6ba-c3f09943c5c9"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
