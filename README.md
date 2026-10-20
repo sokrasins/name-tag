@@ -66,7 +66,8 @@ scripts/render_pcbs.sh both     # also writes *_render_bottom.png
 ```
 
 It calls `kicad-cli pcb render` for each board and `kicad-cli sch export pdf`
-to write `docs/nametag_back_schematic.pdf`. Set `KICAD_CLI` if
+to write `docs/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
+revision from the schematic's title block. Set `KICAD_CLI` if
 `kicad-cli` isn't on your `PATH`. `QUALITY`, `WIDTH`, `HEIGHT` and `BACKGROUND`
 change the output.
 

@@ -25,7 +25,6 @@ boards=(
 # Root schematic; the PDF includes every hierarchical sheet. Only the back
 # board has a schematic.
 schematic="nametag_back/oven_nametag.kicad_sch"
-schematic_pdf="nametag_back_schematic.pdf"
 
 sides="${1:-top}"
 case "$sides" in
@@ -75,6 +74,23 @@ for entry in "${boards[@]}"; do
       "$pcb"
   done
 done
+
+# Take the revision from the root sheet's title block, e.g. (rev "1") -> _rev1.
+# Characters that don't belong in a filename become '-'.
+rev="$(awk '
+  /\(title_block/ { in_tb = 1 }
+  in_tb && match($0, /\(rev "[^"]*"\)/) {
+    print substr($0, RSTART + 6, RLENGTH - 8)
+    exit
+  }
+  in_tb && /^\t\)/ { exit }
+' "$repo_root/$schematic" | tr -c 'A-Za-z0-9._\n-' '-')"
+if [[ -n "$rev" ]]; then
+  schematic_pdf="nametag_back_schematic_rev${rev}.pdf"
+else
+  echo "warning: no revision in $schematic title block; omitting it from the filename" >&2
+  schematic_pdf="nametag_back_schematic.pdf"
+fi
 
 echo "Exporting schematic -> docs/$schematic_pdf"
 "$kicad_cli" sch export pdf \
