@@ -54,6 +54,7 @@ class.
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `bom/ibom.html` | Interactive BOM for assembling the back board |
 | `docs/` | 3D renders of both boards and a PDF of the back board schematic |
+| `docs/power_analysis.md` | Current draw, battery life and thermal estimates for the back board |
 | `scripts/render_pcbs.sh` | Regenerates the renders and schematic PDF in `docs/` |
 
 ## Regenerating the renders and schematic PDF
