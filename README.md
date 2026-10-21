@@ -13,7 +13,7 @@ It is made of two stacked PCBs:
   board. The board lacks soldermask so that the wrench and the area with the 
   individual's name light up when the name tag is on.
 
-The boards line up on four M4 mounting holes and are held together with
+The boards line up on four M3 mounting holes and are held together with
 standoffs. A slot at the top of the back board is for a clip.
 
 This project has been designed explicitly to be built via reflow as part of a 
@@ -27,10 +27,9 @@ class.
 
 - **Power:** a single AAA cell switched by an SPDT slide switch.
 - **Boost converter:** a TI TPS613221A steps the cell up to a +3V3 rail.
-- **LEDs:** 27× SMD LEDs. Each one has a 1 kΩ current-limiting resistor and
-  a BSS138 N-channel MOSFET low-side switch.
+- **LEDs:** 27× SMD LEDs. Each one has a 1 kΩ current-limiting resistor.
 - **Brightness:** a 10 kΩ Bourns TC33X trimmer potentiometer divides the 3.3 V
-  rail and drives the shared `CTRL` gate line of all 27 MOSFETs, so turning it
+  rail and drives the shared `CTRL` gate line of the MOSFET, so turning it
   dims or brightens every LED together.
 
 ## Boards
@@ -39,7 +38,7 @@ class.
 | --- | --- | --- |
 | Size | 100 × 75 mm | 100 × 53 mm |
 | Layers / thickness | 2 / 1.6 mm | 2 / 1.6 mm |
-| Components | All electronics | None (4× M4 holes) |
+| Components | All electronics | None (4× M3 holes) |
 
 ## Repository layout
 
@@ -58,5 +57,3 @@ class.
 ## Open items
 
 - The top-level schematic still has a couple of "TODO: Verify" notes.
-- Ideas from the original requirements that aren't built yet: running on two
-  AAA cells and an optional ESP add-on.
