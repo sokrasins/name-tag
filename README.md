@@ -7,7 +7,7 @@ It is made of two stacked PCBs:
 
 - **Back board:** holds all the electronics, including the battery, power
   switch, boost converter, brightness pot and 27 LEDs. This board provides 
-  illumination to highlight the featured on the front board.
+  illumination to highlight the features on the front board.
 - **Front board:** a plain faceplate with no parts. It has the "My name is:"
   silkscreen and a wrench graphic, and it covers the LED area of the back 
   board. The board lacks soldermask so that the wrench and the area with the 
@@ -27,10 +27,11 @@ class.
 
 - **Power:** a single AAA cell switched by an SPDT slide switch.
 - **Boost converter:** a TI TPS613221A steps the cell up to a +3V3 rail.
-- **LEDs:** 27× SMD LEDs. Each one has a 1 kΩ current-limiting resistor.
-- **Brightness:** a 10 kΩ Bourns TC33X trimmer potentiometer divides the 3.3 V
-  rail and drives the shared `CTRL` gate line of the MOSFET, so turning it
-  dims or brightens every LED together.
+- **LEDs:** 27× SMD LEDs (22 yellow, 5 green). Each one has a 1 kΩ
+  current-limiting resistor.
+- **Brightness:** all LEDs share a single BSS138 low-side MOSFET. A 10 kΩ
+  Bourns TC33X trimmer potentiometer divides the 3.3 V rail and drives its
+  `CTRL` gate line, so turning it dims or brightens every LED together.
 
 ## Boards
 
@@ -44,15 +45,16 @@ class.
 
 | Path | Contents |
 | --- | --- |
-| `nametag_back/oven_nametag.kicad_pro` | Back board KiCad project |
-| `nametag_back/oven_nametag.kicad_sch` | Top-level schematic: battery, switch, boost converter, brightness pot, mounting holes |
-| `nametag_back/leds.kicad_sch` | Hierarchical `LEDs` sheet: 27 LED / resistor / MOSFET channels |
-| `nametag_back/oven_nametag.kicad_pcb` | Back board layout |
+| `nametag_back/nametag_back.kicad_pro` | Back board KiCad project |
+| `nametag_back/nametag_back.kicad_sch` | Top-level schematic: battery, switch, boost converter, brightness pot, mounting holes |
+| `nametag_back/leds.kicad_sch` | Hierarchical `LEDs` sheet: 27 LED / resistor pairs and the shared low-side MOSFET |
+| `nametag_back/nametag_back.kicad_pcb` | Back board layout |
 | `nametag_back/gerbs/` | Back board Gerbers and drill files |
-| `nametag_back/bom/ibom.html` | Interactive BOM for assembling the back board |
 | `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
-| `docs/` | 3D renders of both boards |
+| `bom/ibom.html` | Interactive BOM for assembling the back board |
+| `docs/` | 3D renders (top and bottom) of both boards and the back board schematic PDF |
+| `render_pcbs.sh` | Regenerates the renders and schematic PDF in `docs/` with `kicad-cli` (KiCad 9+) |
 
 ## Open items
 

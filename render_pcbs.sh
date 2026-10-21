@@ -2,7 +2,7 @@
 # Render 3D images of both nametag PCBs and export the back board's schematic
 # as a PDF into docs/ using kicad-cli (KiCad 9+).
 #
-# Usage: scripts/render_pcbs.sh [top|bottom|both]   (default: both)
+# Usage: ./render_pcbs.sh [top|bottom|both]   (default: both)
 #
 # Environment overrides:
 #   KICAD_CLI  path to kicad-cli (default: found on PATH, or the macOS app bundle)
@@ -18,14 +18,14 @@ out_dir="$repo_root/docs"
 
 # board name -> .kicad_pcb path (relative to the repo root)
 boards=(
-  "nametag_back:nametag_back/oven_nametag.kicad_pcb"
+  "nametag_back:nametag_back/nametag_back.kicad_pcb"
   "nametag_front:nametag_front/nametag_front.kicad_pcb"
 )
 
 # Root schematic; the PDF includes every hierarchical sheet. Only the back
 # board has a schematic.
-schematic="nametag_back/oven_nametag.kicad_sch"
-schematic_pdf="nametag_sch.pdf"
+schematic="nametag_back/nametag_back.kicad_sch"
+schematic_pdf="nametag_back_schematic.pdf"
 
 sides="${1:-both}"
 case "$sides" in
