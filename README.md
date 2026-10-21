@@ -53,8 +53,23 @@ class.
 | `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `bom/ibom.html` | Interactive BOM for assembling the back board |
-| `docs/` | 3D renders (top and bottom) of both boards and the back board schematic PDF |
-| `render_pcbs.sh` | Regenerates the renders and schematic PDF in `docs/` with `kicad-cli` (KiCad 9+) |
+| `docs/` | 3D renders of both boards and a PDF of the back board schematic |
+| `scripts/render_pcbs.sh` | Regenerates the renders and schematic PDF in `docs/` |
+
+## Regenerating the renders and schematic PDF
+
+With KiCad 9 or newer installed, run:
+
+```sh
+scripts/render_pcbs.sh          # top side (the images above)
+scripts/render_pcbs.sh both     # also writes *_render_bottom.png
+```
+
+It calls `kicad-cli pcb render` for each board and `kicad-cli sch export pdf`
+to write `docs/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
+revision from the schematic's title block. Set `KICAD_CLI` if
+`kicad-cli` isn't on your `PATH`. `QUALITY`, `WIDTH`, `HEIGHT` and `BACKGROUND`
+change the output.
 
 ## Open items
 
