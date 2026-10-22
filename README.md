@@ -23,7 +23,7 @@ Viewable links are here:
 - [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev2.pdf)
 - [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fnametag_back%2Fnametag_back.kicad_pcb)
 - [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fnametag_front%2Fnametag_front.kicad_pcb)
-- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/develop/bom/assembly.html)
+- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/develop/docs/assembly.html)
 
 ## Renders
 
@@ -60,12 +60,12 @@ Viewable links are here:
 | `nametag_back/gerbs/` | Back board Gerbers and drill files |
 | `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
-| `bom/ibom.html` | Interactive BOM for assembling the back board |
-| `docs/` | 3D renders of both boards and a PDF of the back board schematic |
+| `bom/bom.csv` | Bill of materials for the back board, with LCSC part numbers |
+| `docs/` | 3D renders of both boards, a PDF of the back board schematic, and `assembly.html`, the interactive BOM for assembling the back board |
 | `docs/power_analysis.md` | Current draw, battery life and thermal estimates for the back board |
-| `scripts/render_pcbs.sh` | Regenerates the renders and schematic PDF in `docs/` |
+| `scripts/render_pcbs.sh` | Regenerates the renders, schematic PDF and interactive BOM in `docs/` |
 
-## Regenerating the renders and schematic PDF
+## Regenerating the renders, schematic PDF and interactive BOM
 
 With KiCad 9 or newer installed, run:
 
@@ -79,6 +79,12 @@ to write `docs/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
 revision from the schematic's title block. Set `KICAD_CLI` if
 `kicad-cli` isn't on your `PATH`. `QUALITY`, `WIDTH`, `HEIGHT` and `BACKGROUND`
 change the output.
+
+If the [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
+plugin is installed through KiCad's Plugin and Content Manager, it also writes
+`docs/assembly.html`. Set `IBOM` to point at `generate_interactive_bom.py` if
+the plugin lives elsewhere, and `IBOM_PYTHON` if the python that can import
+KiCad's `pcbnew` module isn't found automatically.
 
 ## Open items
 

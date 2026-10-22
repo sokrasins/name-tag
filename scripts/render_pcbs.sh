@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Render 3D images of both nametag PCBs and export the back board's schematic
-# as a PDF into docs/ using kicad-cli (KiCad 9+).
+# Render 3D images of both nametag PCBs, export the back board's schematic as a
+# PDF, and generate the back board's interactive BOM (docs/assembly.html) into
+# docs/ using kicad-cli (KiCad 9+) and the InteractiveHtmlBom plugin.
 #
 # Usage: scripts/render_pcbs.sh [top|bottom|both]   (default: top)
 #
@@ -10,6 +11,19 @@
 #   WIDTH      image width in px (default: 1920)
 #   HEIGHT     image height in px (default: 1440)
 #   BACKGROUND transparent | opaque | default (default: transparent)
+#   PADDING    margin in px left around each board after cropping (default: 24)
+#   IBOM       path to InteractiveHtmlBom's generate_interactive_bom.py
+#              (default: found in KiCad's 3rd-party plugin directory)
+#   IBOM_PYTHON python that can import KiCad's pcbnew module (default: the
+#              first of KiCad's bundled python, python3, /usr/bin/python3
+#              that can)
+#
+# The interactive BOM is skipped with a warning if the plugin or a python with
+# pcbnew can't be found.
+#
+# Renders are cropped to the board with ImageMagick (magick or convert) when it
+# is installed; without it they keep kicad-cli's full-size margins. Cropping
+# only works on the transparent background: the opaque one is a gradient.
 
 set -euo pipefail
 
@@ -53,6 +67,15 @@ fi
 
 mkdir -p "$out_dir"
 
+magick_cmd=()
+if command -v magick >/dev/null 2>&1; then
+  magick_cmd=(magick)
+elif command -v convert >/dev/null 2>&1; then
+  magick_cmd=(convert)
+else
+  echo "warning: ImageMagick not found; renders will not be cropped" >&2
+fi
+
 for entry in "${boards[@]}"; do
   name="${entry%%:*}"
   pcb="$repo_root/${entry#*:}"
@@ -81,6 +104,14 @@ for entry in "${boards[@]}"; do
       --light-camera 0.1 \
       --output "$out" \
       "$pcb"
+
+    # Crop to the board, then pad it back out with the background color, read
+    # from the corner pixel.
+    if (( ${#magick_cmd[@]} )); then
+      bg="$("${magick_cmd[@]}" "$out" -format '%[pixel:p{0,0}]' info:)"
+      "${magick_cmd[@]}" "$out" -trim +repage \
+        -bordercolor "$bg" -border "${PADDING:-24}" "$out"
+    fi
   done
 done
 
@@ -105,3 +136,53 @@ echo "Exporting schematic -> docs/$schematic_pdf"
 "$kicad_cli" sch export pdf \
   --output "$out_dir/$schematic_pdf" \
   "$repo_root/$schematic"
+
+# Interactive BOM for the back board (the front board has no components).
+ibom="${IBOM:-}"
+if [[ -z "$ibom" ]]; then
+  for dir in \
+    "$HOME/.local/share/kicad"/*/3rdparty/plugins \
+    "$HOME/Documents/KiCad"/*/3rdparty/plugins; do
+    if [[ -f "$dir/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py" ]]; then
+      ibom="$dir/org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py"
+    fi
+  done
+fi
+
+# pcbnew only loads in the python KiCad was built against. -E ignores
+# PYTHONHOME/PYTHONPATH, which other toolchains (e.g. nRF Connect) set to their
+# own python and which would otherwise break it.
+ibom_python="${IBOM_PYTHON:-}"
+if [[ -z "$ibom_python" ]]; then
+  for py in \
+    /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 \
+    python3 \
+    /usr/bin/python3; do
+    if "$py" -E -c 'import pcbnew' >/dev/null 2>&1; then
+      ibom_python="$py"
+      break
+    fi
+  done
+fi
+
+if [[ -z "$ibom" ]]; then
+  echo "warning: InteractiveHtmlBom plugin not found; skipping docs/assembly.html (set IBOM)" >&2
+elif [[ -z "$ibom_python" ]]; then
+  echo "warning: no python can import pcbnew; skipping docs/assembly.html (set IBOM_PYTHON)" >&2
+else
+  echo "Generating interactive BOM -> docs/assembly.html"
+  "$ibom_python" -E "$ibom" \
+    --no-browser \
+    --dest-dir "$out_dir" \
+    --name-format assembly \
+    --dark-mode \
+    --show-pads \
+    --show-fabrication \
+    --hide-silkscreen \
+    --highlight-pin1 none \
+    --checkboxes "Sourced,Placed" \
+    --bom-view left-right \
+    --layer-view F \
+    --show-fields "Value,Footprint" \
+    "$repo_root/nametag_back/nametag_back.kicad_pcb"
+fi
