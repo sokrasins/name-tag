@@ -1,4 +1,3 @@
-
 # Don't include zip files
 *.zip
 
@@ -35,7 +34,6 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
