@@ -29,6 +29,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 out_dir="$repo_root/docs"
+render_dir="$out_dir/renders"
 
 # board name -> .kicad_pcb path (relative to the repo root)
 boards=(
@@ -65,7 +66,7 @@ if ! "$kicad_cli" pcb render --help >/dev/null 2>&1; then
   exit 1
 fi
 
-mkdir -p "$out_dir"
+mkdir -p "$out_dir" "$render_dir"
 
 magick_cmd=()
 if command -v magick >/dev/null 2>&1; then
@@ -82,9 +83,9 @@ for entry in "${boards[@]}"; do
   for side in "${sides[@]}"; do
     # The top render keeps the filename the README already links to.
     if [[ "$side" == top ]]; then
-      out="$out_dir/${name}_render.png"
+      out="$render_dir/${name}_render.png"
     else
-      out="$out_dir/${name}_render_${side}.png"
+      out="$render_dir/${name}_render_${side}.png"
     fi
     echo "Rendering $name ($side) -> ${out#"$repo_root"/}"
     # Lighting: "high" quality ray-traces shadows from the side lights, which

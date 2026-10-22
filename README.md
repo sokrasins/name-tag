@@ -27,9 +27,9 @@ Viewable links are here:
 
 ## Renders
 
-![Back PCB](docs/nametag_back_render.png)
+![Back PCB](docs/renders/nametag_back_render.png)
 
-![Front PCB](docs/nametag_front_render.png)
+![Front PCB](docs/renders/nametag_front_render.png)
 
 ## How it works
 
@@ -60,8 +60,8 @@ Viewable links are here:
 | `nametag_back/gerbs/` | Back board Gerbers and drill files |
 | `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
 | `nametag_front/gerbs/` | Front board Gerbers and drill files |
-| `bom/bom.csv` | Bill of materials for the back board, with LCSC part numbers |
-| `docs/` | 3D renders of both boards, a PDF of the back board schematic, and `assembly.html`, the interactive BOM for assembling the back board |
+| `docs/bom.csv` | Bill of materials for the back board, with LCSC part numbers |
+| `docs/` | 3D renders of both boards (in `docs/renders/`), a PDF of the back board schematic, and `assembly.html`, the interactive BOM for assembling the back board |
 | `docs/power_analysis.md` | Current draw, battery life and thermal estimates for the back board |
 | `scripts/render_pcbs.sh` | Regenerates the renders, schematic PDF and interactive BOM in `docs/` |
 
@@ -71,7 +71,7 @@ With KiCad 9 or newer installed, run:
 
 ```sh
 scripts/render_pcbs.sh          # top side (the images above)
-scripts/render_pcbs.sh both     # also writes *_render_bottom.png
+scripts/render_pcbs.sh both     # also writes docs/renders/*_render_bottom.png
 ```
 
 It calls `kicad-cli pcb render` for each board and `kicad-cli sch export pdf`
