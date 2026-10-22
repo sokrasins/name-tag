@@ -6,7 +6,7 @@
 #
 # Environment overrides:
 #   KICAD_CLI  path to kicad-cli (default: found on PATH, or the macOS app bundle)
-#   QUALITY    basic | high | user (default: high)
+#   QUALITY    basic | high | user (default: basic; see lighting note below)
 #   WIDTH      image width in px (default: 1920)
 #   HEIGHT     image height in px (default: 1440)
 #   BACKGROUND transparent | opaque | default (default: transparent)
@@ -18,13 +18,13 @@ out_dir="$repo_root/docs"
 
 # board name -> .kicad_pcb path (relative to the repo root)
 boards=(
-  "nametag_back:nametag_back/oven_nametag.kicad_pcb"
+  "nametag_back:nametag_back/nametag_back.kicad_pcb"
   "nametag_front:nametag_front/nametag_front.kicad_pcb"
 )
 
 # Root schematic; the PDF includes every hierarchical sheet. Only the back
 # board has a schematic.
-schematic="nametag_back/oven_nametag.kicad_sch"
+schematic="nametag_back/nametag_back.kicad_sch"
 
 sides="${1:-top}"
 case "$sides" in
@@ -64,12 +64,21 @@ for entry in "${boards[@]}"; do
       out="$out_dir/${name}_render_${side}.png"
     fi
     echo "Rendering $name ($side) -> ${out#"$repo_root"/}"
+    # Lighting: "high" quality ray-traces shadows from the side lights, which
+    # leave a blotchy halo around the battery holder, so render without them.
+    # Brightness comes from low side lights rather than the top/camera lights:
+    # on the glossy mask those reflect straight into the camera, washing the
+    # color out to gray and leaving a hotspot in the middle of the board.
     "$kicad_cli" pcb render \
       --side "$side" \
-      --quality "${QUALITY:-high}" \
+      --quality "${QUALITY:-basic}" \
       --background "${BACKGROUND:-transparent}" \
       --width "${WIDTH:-1920}" \
       --height "${HEIGHT:-1440}" \
+      --light-side 0.8 \
+      --light-side-elevation 40 \
+      --light-top 0.05 \
+      --light-camera 0.1 \
       --output "$out" \
       "$pcb"
   done
