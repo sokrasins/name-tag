@@ -1,6 +1,3 @@
-# Don't include specific price information, yet
-assy_bom.*
-*.csv#
 
 # Don't include zip files
 *.zip
