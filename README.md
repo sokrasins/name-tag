@@ -53,13 +53,13 @@ Viewable links are here:
 
 | Path | Contents |
 | --- | --- |
-| `nametag_back/nametag_back.kicad_pro` | Back board KiCad project |
-| `nametag_back/nametag_back.kicad_sch` | Top-level schematic: battery, switch, boost converter, brightness pot, mounting holes |
-| `nametag_back/leds.kicad_sch` | Hierarchical `LEDs` sheet: 27 LED / resistor pairs and the shared low-side MOSFET |
-| `nametag_back/nametag_back.kicad_pcb` | Back board layout |
-| `nametag_back/gerbs/` | Back board Gerbers and drill files |
-| `nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
-| `nametag_front/gerbs/` | Front board Gerbers and drill files |
+| `pcbs/nametag_back/nametag_back.kicad_pro` | Back board KiCad project |
+| `pcbs/nametag_back/nametag_back.kicad_sch` | Top-level schematic: battery, switch, boost converter, brightness pot, mounting holes |
+| `pcbs/nametag_back/leds.kicad_sch` | Hierarchical `LEDs` sheet: 27 LED / resistor pairs and the shared low-side MOSFET |
+| `pcbs/nametag_back/nametag_back.kicad_pcb` | Back board layout |
+| `pcbs/nametag_back/gerbs/` | Back board Gerbers and drill files |
+| `pcbs/nametag_front/nametag_front.kicad_pro` | Front board KiCad project (PCB only, no schematic) |
+| `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC part numbers |
 | `docs/` | 3D renders of both boards (in `docs/renders/`), a PDF of the back board schematic, and `assembly.html`, the interactive BOM for assembling the back board |
 | `docs/power_analysis.md` | Current draw, battery life and thermal estimates for the back board |

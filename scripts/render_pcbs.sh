@@ -33,13 +33,13 @@ render_dir="$out_dir/renders"
 
 # board name -> .kicad_pcb path (relative to the repo root)
 boards=(
-  "nametag_back:nametag_back/nametag_back.kicad_pcb"
-  "nametag_front:nametag_front/nametag_front.kicad_pcb"
+  "nametag_back:pcbs/nametag_back/nametag_back.kicad_pcb"
+  "nametag_front:pcbs/nametag_front/nametag_front.kicad_pcb"
 )
 
 # Root schematic; the PDF includes every hierarchical sheet. Only the back
 # board has a schematic.
-schematic="nametag_back/nametag_back.kicad_sch"
+schematic="pcbs/nametag_back/nametag_back.kicad_sch"
 
 sides="${1:-top}"
 case "$sides" in
@@ -185,5 +185,5 @@ else
     --bom-view left-right \
     --layer-view F \
     --show-fields "Value,Footprint" \
-    "$repo_root/nametag_back/nametag_back.kicad_pcb"
+    "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
 fi
