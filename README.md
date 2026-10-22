@@ -19,6 +19,14 @@ standoffs. A slot at the top of the back board is for a clip.
 This project has been designed explicitly to be built via reflow as part of a 
 class.
 
+Viewable links are here:
+
+- [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic.pdf)
+- [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fnametag_back%2Fnametag_back.kicad_pcb)
+- [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fnametag_front%2Fnametag_front.kicad_pcb)
+
+## Renders
+
 ![Back PCB](docs/nametag_back_render.png)
 
 ![Front PCB](docs/nametag_front_render.png)
