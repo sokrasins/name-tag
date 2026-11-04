@@ -61,7 +61,10 @@ if [[ -z "$kicad_cli" ]]; then
   fi
 fi
 
-if ! "$kicad_cli" pcb render --help >/dev/null 2>&1; then
+# Look for "render" in the pcb subcommand list rather than trusting an exit
+# code: kicad-cli 9 exits nonzero from --help even when the command exists.
+pcb_help="$("$kicad_cli" pcb --help 2>&1 || true)"
+if ! grep -qE '^[[:space:]]+render[[:space:]]' <<<"$pcb_help"; then
   echo "error: '$kicad_cli' has no 'pcb render' command (requires KiCad 9+)" >&2
   exit 1
 fi
