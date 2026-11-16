@@ -13,10 +13,13 @@ It is made of two stacked PCBs:
   board. The board lacks soldermask so that the wrench and the area with the 
   individual's name light up when the name tag is on.
 
-The boards line up on four M3 mounting holes and are held together with
-standoffs. A slot at the top of the back board is for a clip.
+The boards line up on four M3 mounting holes. They sandwich a 3D-printed
+shroud between them and are held together with M3 nylon screws and nuts. The
+shroud spaces the boards apart so the LED light looks diffused through the
+front board, and its walls stop the bright LED light from escaping out the
+sides. A slot at the top of the back board is for a clip.
 
-This project has been designed explicitly to be built via reflow as part of a 
+This project has been designed specifically to be built via reflow as part of a 
 class.
 
 Viewable links are here:
@@ -52,6 +55,39 @@ battery life estimates.
 | Layers / thickness | 2 / 1.6 mm | 2 / 1.6 mm |
 | Components | All electronics | None (4× M3 holes) |
 
+## Other parts needed
+
+Besides the two PCBs and the parts in [docs/bom.csv](docs/bom.csv), each
+name tag needs:
+
+| Qty | Part | Notes |
+| --- | --- | --- |
+| 4 | M3 × 20 mm nylon screw | |
+| 4 | M3 nylon nut | |
+| 1 | 3D-printed shroud | [mech/nametag_shroud_v1.3mf](mech/nametag_shroud_v1.3mf) |
+| 1 | Plastic name tag clip | Attaches through the slot at the top of the back board |
+
+## Printing the shroud
+
+The shroud prints fine with your favorite standard settings. The
+original was printed in black PLA, which helps block light from leaking out
+the sides, but almost any filament should work.
+
+## Adding your name
+
+The front board leaves an open area for your name, and the LEDs behind it
+light it up. How you fill it in is up to you. Some options:
+
+- **Marker:** a Sharpie works, but it doesn't give much contrast against the
+  lit board.
+- **Letter stickers:** spell out your name with adhesive letters.
+- **Cut vinyl:** cut your name or a design out of vinyl with a vinyl cutter.
+- **Laser-cut design:** cut a design to sit over the name area.
+- **Custom front PCB:** copy `pcbs/nametag_front/` and add your name as text,
+  then order it in place of the default front board.
+
+There are lots of creative possibilities, so have fun with it.
+
 ## Repository layout
 
 | Path | Contents |
@@ -62,6 +98,7 @@ battery life estimates.
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/assembly.html` | Interactive BOM for assembling the back board |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
+| `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
 
 ## Regenerating the renders, schematic PDF and interactive BOM
 
