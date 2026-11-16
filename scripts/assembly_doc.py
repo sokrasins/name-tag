@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Generate a printable assembly document (PDF) for a KiCad board.
 
-The document has one page per component: every footprint with the same value
-and footprint is one component, and its page shows the whole board with all of
-its instances highlighted. Parts placed on earlier pages are shaded so the
+The document has one step per component: every footprint with the same value
+and footprint is one component, and its step shows the whole board with all of
+its instances highlighted. Each step fills half a page, so two steps print on
+each US letter sheet, with a dashed line between them to cut along. Parts placed on earlier pages are shaded so the
 pages also read as a running placement order. Footprints excluded from the BOM
 (the mounting holes) get no page, nor do the parts named with --skip (by
 default BT1, the AA holder, which is hand-soldered after reflow).
@@ -56,10 +57,12 @@ except ImportError:
     sys.exit("error: no python can import pcbnew; install KiCad 9+ or set PCBNEW_PYTHON")
 
 
-# Page: US letter, landscape, in mm (SVG user units).
-PAGE_W, PAGE_H = 279.4, 215.9
-MARGIN = 12.0
-HEADER_H = 34.0
+# Each step is a half-letter landscape panel; two panels stack on one portrait
+# US letter sheet. All sizes in mm (SVG user units).
+SHEET_W, SHEET_H = 215.9, 279.4
+PANEL_W, PANEL_H = SHEET_W, SHEET_H / 2
+MARGIN = 8.0
+HEADER_H = 23.0
 
 COLORS = {
     "page": "#ffffff",
@@ -336,8 +339,8 @@ def wrap(text, width):
 def page_svg(board, title, step, total, group, placed):
     bb = board.GetBoardEdgesBoundingBox()
     bx, by, bw, bh = mm(bb.GetX()), mm(bb.GetY()), mm(bb.GetWidth()), mm(bb.GetHeight())
-    area_w = PAGE_W - 2 * MARGIN
-    area_h = PAGE_H - 2 * MARGIN - HEADER_H
+    area_w = PANEL_W - 2 * MARGIN
+    area_h = PANEL_H - 2 * MARGIN - HEADER_H
     scale = min(area_w / bw, area_h / bh)
     ox = MARGIN + (area_w - bw * scale) / 2 - bx * scale
     oy = MARGIN + HEADER_H + (area_h - bh * scale) / 2 - by * scale
@@ -348,29 +351,29 @@ def page_svg(board, title, step, total, group, placed):
     else:
         transform = f"translate({ox:.3f},{oy:.3f}) scale({scale:.5f})"
 
-    # Reference labels are ~3 mm tall on paper.
-    label_size = 3.0 / scale
+    # Reference labels are ~2.5 mm tall on paper.
+    label_size = 2.5 / scale
     board_svg = render_board(board, group["layer"], group["footprints"], placed, label_size)
 
     refs = group["refs"]
 
     t = []
     x0 = MARGIN
-    t.append(f'<text x="{x0}" y="{MARGIN + 5}" font-size="4" fill="{COLORS["muted"]}">'
+    t.append(f'<text x="{x0}" y="{MARGIN + 3}" font-size="3" fill="{COLORS["muted"]}">'
              f'{html.escape(title)} · Step {step} of {total}</text>')
-    t.append(f'<text x="{x0}" y="{MARGIN + 15}" font-size="9" font-weight="bold" '
+    t.append(f'<text x="{x0}" y="{MARGIN + 10.5}" font-size="6.5" font-weight="bold" '
              f'fill="{COLORS["text"]}">{html.escape(group["value"])} '
              + (f'<tspan font-weight="normal">{html.escape(group["name"])}</tspan> ' if group["name"] else "") +
-             f'<tspan font-size="6" font-weight="normal" fill="{COLORS["muted"]}">×{len(refs)}'
+             f'<tspan font-size="4.5" font-weight="normal" fill="{COLORS["muted"]}">×{len(refs)}'
              f'{" · bottom side" if mirror else ""}</tspan></text>')
-    y = MARGIN + 21
-    for line in wrap(", ".join(refs), 120)[:2]:
-        t.append(f'<text x="{x0}" y="{y:.1f}" font-size="4" fill="{COLORS["text"]}">'
+    y = MARGIN + 15.5
+    for line in wrap(", ".join(refs), 125)[:2]:
+        t.append(f'<text x="{x0}" y="{y:.1f}" font-size="3" fill="{COLORS["text"]}">'
                  f'{html.escape(line)}</text>')
-        y += 5
+        y += 3.8
 
     # Legend, top right.
-    lx = PAGE_W - MARGIN - 52
+    lx = PANEL_W - MARGIN - 38
     legend = [(COLORS["highlight"], "This step")]
     if any(ref_prefix(r).upper().startswith(POLARIZED_PREFIXES) for r in refs):
         pin1 = {"D": "Pin 1 (LED cathode)", "BT": "Pin 1 (+)"}.get(ref_prefix(refs[0]).upper(), "Pin 1")
@@ -378,20 +381,31 @@ def page_svg(board, title, step, total, group, placed):
     if placed:
         legend.append((COLORS["placed"], "Placed in earlier steps"))
     for i, (color, label) in enumerate(legend):
-        ly = MARGIN + 3 + i * 6
-        t.append(f'<rect x="{lx}" y="{ly}" width="4" height="4" fill="{color}" stroke="#0007" stroke-width="0.2"/>')
-        t.append(f'<text x="{lx + 6}" y="{ly + 3.3}" font-size="3.6" fill="{COLORS["text"]}">{html.escape(label)}</text>')
+        ly = MARGIN + i * 4.5
+        t.append(f'<rect x="{lx}" y="{ly}" width="3" height="3" fill="{color}" stroke="#0007" stroke-width="0.2"/>')
+        t.append(f'<text x="{lx + 4.5}" y="{ly + 2.5}" font-size="2.8" fill="{COLORS["text"]}">{html.escape(label)}</text>')
 
-    t.append(f'<line x1="{MARGIN}" y1="{MARGIN + HEADER_H - 4}" x2="{PAGE_W - MARGIN}" '
-             f'y2="{MARGIN + HEADER_H - 4}" stroke="#ccc" stroke-width="0.3"/>')
+    t.append(f'<line x1="{MARGIN}" y1="{MARGIN + HEADER_H - 2.5}" x2="{PANEL_W - MARGIN}" '
+             f'y2="{MARGIN + HEADER_H - 2.5}" stroke="#ccc" stroke-width="0.25"/>')
 
+    return "\n".join(t) + f'\n<g transform="{transform}">\n{board_svg}\n</g>'
+
+
+def sheet_svg(panels):
+    """A portrait letter sheet holding one or two panels, top then bottom,
+    with a dashed line between them to cut along."""
+    body = []
+    for i, panel in enumerate(panels):
+        body.append(f'<svg x="0" y="{i * PANEL_H:.2f}" width="{PANEL_W}" height="{PANEL_H:.2f}" '
+                    f'viewBox="0 0 {PANEL_W} {PANEL_H:.2f}" overflow="hidden">\n{panel}\n</svg>')
+    body.append(f'<line x1="0" y1="{PANEL_H:.2f}" x2="{SHEET_W}" y2="{PANEL_H:.2f}" '
+                f'stroke="#bbb" stroke-width="0.25" stroke-dasharray="2 1.5"/>')
     return (
         f'<?xml version="1.0" encoding="UTF-8"?>\n'
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{PAGE_W}mm" height="{PAGE_H}mm" '
-        f'viewBox="0 0 {PAGE_W} {PAGE_H}" font-family="Helvetica, Arial, sans-serif">\n'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{SHEET_W}mm" height="{SHEET_H}mm" '
+        f'viewBox="0 0 {SHEET_W} {SHEET_H}" font-family="Helvetica, Arial, sans-serif">\n'
         f'<rect width="100%" height="100%" fill="{COLORS["page"]}"/>\n'
-        + "\n".join(t)
-        + f'\n<g transform="{transform}">\n{board_svg}\n</g>\n</svg>\n'
+        + "\n".join(body) + "\n</svg>\n"
     )
 
 
@@ -407,9 +421,9 @@ def main():
     ap.add_argument("--skip", nargs="*", default=["BT1"], metavar="REF",
                     help="references to leave out (default: BT1, the AA holder)")
     ap.add_argument("--last", nargs="*", default=["R"], metavar="PREFIX",
-                    help="reference prefixes whose pages go at the end (default: R)")
+                    help="reference prefixes whose steps go at the end (default: R)")
     ap.add_argument("--title", help="title shown on every page (default: board file name)")
-    ap.add_argument("--keep-svg", metavar="DIR", help="also write each page's SVG into DIR")
+    ap.add_argument("--keep-svg", metavar="DIR", help="also write each sheet's SVG into DIR")
     args = ap.parse_args()
     if args.output is None:
         name = "assembly_guide_grayscale.pdf" if args.grayscale else "assembly_guide.pdf"
@@ -430,19 +444,22 @@ def main():
     with tempfile.TemporaryDirectory() as tmp:
         out_dir = args.keep_svg or tmp
         os.makedirs(out_dir, exist_ok=True)
-        pages, placed = [], []
+        panels, placed = [], []
         for step, group in enumerate(groups, 1):
-            svg = page_svg(board, title, step, len(groups), group, placed)
-            path = os.path.join(out_dir, f"page_{step:02d}.svg")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(svg)
-            pages.append(path)
+            panels.append(page_svg(board, title, step, len(groups), group, placed))
             placed.extend(group["footprints"])
             print(f"Step {step:2d}: {group['value']} x{len(group['refs'])} ({', '.join(group['refs'])})")
 
+        sheets = []
+        for n, i in enumerate(range(0, len(panels), 2), 1):
+            path = os.path.join(out_dir, f"sheet_{n:02d}.svg")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(sheet_svg(panels[i:i + 2]))
+            sheets.append(path)
+
         os.makedirs(os.path.dirname(os.path.abspath(args.output)), exist_ok=True)
-        subprocess.run([rsvg, "-f", "pdf", "-o", args.output, *pages], check=True)
-    print(f"Wrote {len(pages)} pages -> {os.path.relpath(args.output)}")
+        subprocess.run([rsvg, "-f", "pdf", "-o", args.output, *sheets], check=True)
+    print(f"Wrote {len(panels)} steps on {len(sheets)} pages -> {os.path.relpath(args.output)}")
 
 
 if __name__ == "__main__":

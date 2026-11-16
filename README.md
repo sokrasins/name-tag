@@ -97,53 +97,17 @@ There are lots of creative possibilities, so have fun with it.
 | `pcbs/nametag_front/` | Front board KiCad project (layout only, no schematic) |
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/assembly/assembly_ibom.html` | Interactive BOM for assembling the back board |
-| `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one page per component |
+| `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one step per component, two steps per page |
 | `docs/assembly/assembly_guide_grayscale.pdf` | The same guide for black-and-white printers |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 | `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
+| `scripts/` | Scripts that generate the renders, schematic PDF and assembly docs ([usage](scripts/README.md)) |
 
-## Regenerating the renders, schematic PDF and interactive BOM
+## Regenerating the docs
 
-With KiCad 9 or newer installed, run:
-
-```sh
-scripts/render_pcbs.sh          # top side (the images above)
-scripts/render_pcbs.sh both     # also writes docs/renders/*_render_bottom.png
-```
-
-It calls `kicad-cli pcb render` for each board and `kicad-cli sch export pdf`
-to write `docs/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
-revision from the schematic's title block. Set `KICAD_CLI` if
-`kicad-cli` isn't on your `PATH`. `QUALITY`, `WIDTH`, `HEIGHT` and `BACKGROUND`
-change the output.
-
-If the [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
-plugin is installed through KiCad's Plugin and Content Manager, it also writes
-`docs/assembly/assembly_ibom.html`. Set `IBOM` to point at `generate_interactive_bom.py` if
-the plugin lives elsewhere, and `IBOM_PYTHON` if the python that can import
-KiCad's `pcbnew` module isn't found automatically.
-
-It also runs `scripts/assembly_doc.py` to write the assembly guide described
-below, in color and grayscale.
-
-## Regenerating the assembly guide
-
-`docs/assembly/assembly_guide.pdf` is a printable guide with one page per component
-(each value/footprint group, e.g. all 27 1k resistors). Each page shows the
-back board and its silkscreen with that component's locations highlighted, pin 1 marked for
-polarized parts and parts from earlier pages shaded. Pages run top to bottom,
-left to right across the board, with the resistors last (`--last` changes
-which reference prefixes go at the end). Mounting holes and the hand-soldered AA holder
-(BT1) get no page; `--skip` changes which references are left out.
-
-```sh
-scripts/assembly_doc.py                       # back board -> docs/assembly/assembly_guide.pdf
-scripts/assembly_doc.py --grayscale           # -> docs/assembly/assembly_guide_grayscale.pdf
-scripts/assembly_doc.py path/to/board.kicad_pcb -o out.pdf
-```
-
-It needs KiCad 9+ (for its `pcbnew` python module; set `PCBNEW_PYTHON` if it
-isn't found) and `rsvg-convert` (`brew install librsvg`).
+The renders, schematic PDF, interactive BOM and assembly guides are generated
+by the scripts in `scripts/`. See [scripts/README.md](scripts/README.md) for
+usage.
 
 ## Open items
 
