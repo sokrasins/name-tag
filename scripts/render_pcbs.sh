@@ -14,9 +14,10 @@
 #   PADDING    margin in px left around each board after cropping (default: 24)
 #   IBOM       path to InteractiveHtmlBom's generate_interactive_bom.py
 #              (default: found in KiCad's 3rd-party plugin directory)
-#   IBOM_PYTHON python that can import KiCad's pcbnew module (default: the
-#              first of KiCad's bundled python, python3, /usr/bin/python3
-#              that can)
+#   PCBNEW_PYTHON python that can import KiCad's pcbnew module, used to hide
+#              User layers in the back board renders and to run the
+#              interactive BOM (default: the first of KiCad's bundled python,
+#              python3, /usr/bin/python3 that can)
 #
 # The interactive BOM is skipped with a warning if the plugin or a python with
 # pcbnew can't be found.
@@ -80,9 +81,77 @@ else
   echo "warning: ImageMagick not found; renders will not be cropped" >&2
 fi
 
+# pcbnew only loads in the python KiCad was built against. -E ignores
+# PYTHONHOME/PYTHONPATH, which other toolchains (e.g. nRF Connect) set to their
+# own python and which would otherwise break it.
+pcbnew_python="${PCBNEW_PYTHON:-${IBOM_PYTHON:-}}"
+if [[ -z "$pcbnew_python" ]]; then
+  for py in \
+    /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 \
+    python3 \
+    /usr/bin/python3; do
+    if "$py" -E -c 'import pcbnew' >/dev/null 2>&1; then
+      pcbnew_python="$py"
+      break
+    fi
+  done
+fi
+
+# Boards whose renders hide every User layer (User.Drawings, User.Comments,
+# User.Eco1/2, User.1-45). The "follow_plot_settings" preset doesn't hide the
+# User.N layers, so these boards are rendered from a temporary copy with the
+# user-layer graphics deleted.
+hide_user_layers=(nametag_back)
+
+tmp_dir="$(mktemp -d)"
+trap 'rm -rf "$tmp_dir"' EXIT
+
+# strip_user_layers SRC_PCB DST_PCB: copy SRC_PCB to DST_PCB without the
+# graphics on User layers. The project file comes along so text variables and
+# other project settings still resolve.
+strip_user_layers() {
+  local src="$1" dst="$2"
+  cp "${src%.kicad_pcb}.kicad_pro" "${dst%.kicad_pcb}.kicad_pro" 2>/dev/null || true
+  "$pcbnew_python" -E - "$src" "$dst" <<'PY'
+import sys
+import pcbnew
+
+src, dst = sys.argv[1:3]
+board = pcbnew.LoadBoard(src)
+user = {l for l in range(pcbnew.PCB_LAYER_ID_COUNT) if pcbnew.IsUserLayer(l)}
+
+for item in list(board.GetDrawings()):
+    if item.GetLayer() in user:
+        board.Delete(item)
+zones = [board.GetArea(i) for i in range(board.GetAreaCount())]
+for zone in zones:
+    if all(l in user for l in zone.GetLayerSet().Seq()):
+        board.Delete(zone)
+for fp in board.GetFootprints():
+    for item in list(fp.GraphicalItems()):
+        if item.GetLayer() in user:
+            fp.Delete(item)
+    for field in fp.GetFields():
+        if field.GetLayer() in user:
+            field.SetVisible(False)
+
+pcbnew.SaveBoard(dst, board)
+PY
+}
+
 for entry in "${boards[@]}"; do
   name="${entry%%:*}"
   pcb="$repo_root/${entry#*:}"
+  if [[ " ${hide_user_layers[*]} " == *" $name "* ]]; then
+    if [[ -z "$pcbnew_python" ]]; then
+      echo "warning: no python can import pcbnew; $name renders will show User layers (set PCBNEW_PYTHON)" >&2
+    else
+      mkdir -p "$tmp_dir/$name"
+      stripped="$tmp_dir/$name/$(basename "$pcb")"
+      strip_user_layers "$pcb" "$stripped"
+      pcb="$stripped"
+    fi
+  fi
   for side in "${sides[@]}"; do
     # The top render keeps the filename the README already links to.
     if [[ "$side" == top ]]; then
@@ -153,29 +222,13 @@ if [[ -z "$ibom" ]]; then
   done
 fi
 
-# pcbnew only loads in the python KiCad was built against. -E ignores
-# PYTHONHOME/PYTHONPATH, which other toolchains (e.g. nRF Connect) set to their
-# own python and which would otherwise break it.
-ibom_python="${IBOM_PYTHON:-}"
-if [[ -z "$ibom_python" ]]; then
-  for py in \
-    /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 \
-    python3 \
-    /usr/bin/python3; do
-    if "$py" -E -c 'import pcbnew' >/dev/null 2>&1; then
-      ibom_python="$py"
-      break
-    fi
-  done
-fi
-
 if [[ -z "$ibom" ]]; then
   echo "warning: InteractiveHtmlBom plugin not found; skipping docs/assembly.html (set IBOM)" >&2
-elif [[ -z "$ibom_python" ]]; then
-  echo "warning: no python can import pcbnew; skipping docs/assembly.html (set IBOM_PYTHON)" >&2
+elif [[ -z "$pcbnew_python" ]]; then
+  echo "warning: no python can import pcbnew; skipping docs/assembly.html (set PCBNEW_PYTHON)" >&2
 else
   echo "Generating interactive BOM -> docs/assembly.html"
-  "$ibom_python" -E "$ibom" \
+  "$pcbnew_python" -E "$ibom" \
     --no-browser \
     --dest-dir "$out_dir" \
     --name-format assembly \
