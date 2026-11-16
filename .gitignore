@@ -1,6 +1,8 @@
 # Don't include zip files
 *.zip
 
+.DS_Store
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 

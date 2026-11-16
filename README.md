@@ -6,7 +6,7 @@ MAKE Roanoke, designed in KiCad 9.
 It is made of two stacked PCBs:
 
 - **Back board:** holds all the electronics, including the battery, power
-  switch, boost converter, brightness pot and 27 LEDs. This board provides 
+  switch, boost converter and 27 LEDs. This board provides 
   illumination to highlight the features on the front board.
 - **Front board:** a plain faceplate with no parts. It has the "My name is:"
   silkscreen and a wrench graphic, and it covers the LED area of the back 
@@ -33,19 +33,22 @@ Viewable links are here:
 
 ## How it works
 
-- **Power:** a single AAA cell switched by an SPDT slide switch.
-- **Boost converter:** a TI TPS613221A steps the cell up to a +3V3 rail.
-- **LEDs:** 27× SMD LEDs (22 yellow, 5 green). Each one has a 1 kΩ
-  current-limiting resistor.
-- **Brightness:** all LEDs share a single BSS138 low-side MOSFET. A 10 kΩ
-  Bourns TC33X trimmer potentiometer divides the 3.3 V rail and drives its
-  `CTRL` gate line, so turning it dims or brightens every LED together.
+- **Power:** a single AA cell (Keystone 2460 holder) switched by an SPDT
+  slide switch.
+- **Boost converter:** a TI TPS613222A steps the cell up to a +5V rail.
+- **LEDs:** 27× 1206 SMD LEDs (22 white, 5 green). Each one has a 1 kΩ
+  current-limiting resistor to GND.
+- **Brightness:** fixed. This revision (Rev 3) has no brightness control; the
+  LEDs run at about 2.25 mA each whenever the switch is on.
+
+See [docs/power_analysis.md](docs/power_analysis.md) for current draw and
+battery life estimates.
 
 ## Boards
 
 | | Back | Front |
 | --- | --- | --- |
-| Size | 100 × 75 mm | 100 × 53 mm |
+| Size | 100 × 78 mm | 100 × 53 mm |
 | Layers / thickness | 2 / 1.6 mm | 2 / 1.6 mm |
 | Components | All electronics | None (4× M3 holes) |
 
@@ -58,7 +61,7 @@ Viewable links are here:
 | `pcbs/nametag_front/` | Front board KiCad project (layout only, no schematic) |
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/assembly.html` | Interactive BOM for assembling the back board |
-| `docs/bom.csv` | Bill of materials for the back board, with LCSC part numbers |
+| `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 
 ## Regenerating the renders, schematic PDF and interactive BOM
 
@@ -83,4 +86,6 @@ KiCad's `pcbnew` module isn't found automatically.
 
 ## Open items
 
-- The top-level schematic still has a couple of "TODO: Verify" notes.
+- SW2 (PCM12SMTR) is rated 0.3 A, but the battery current reaches ~230–430 mA
+  over a discharge. See the power analysis; a higher-rated switch may be worth
+  considering.

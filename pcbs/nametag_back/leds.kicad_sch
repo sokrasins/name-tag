@@ -2207,7 +2207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 105.41 109.2199 0)
 			(effects
 				(font
@@ -2277,7 +2277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 121.92 109.2199 0)
 			(effects
 				(font
@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 39.37 73.6599 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 72.39 73.6599 0)
 			(effects
 				(font
@@ -3146,7 +3146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 88.9 144.7799 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 121.92 73.6599 0)
 			(effects
 				(font
@@ -3286,7 +3286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 171.45 73.6599 0)
 			(effects
 				(font
@@ -3778,7 +3778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 72.39 109.2199 0)
 			(effects
 				(font
@@ -3993,7 +3993,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 265.43 74.9299 0)
 			(effects
 				(font
@@ -4129,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 105.41 73.6599 0)
 			(effects
 				(font
@@ -4265,7 +4265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 171.45 109.2199 0)
 			(effects
 				(font
@@ -4401,7 +4401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 55.88 109.2199 0)
 			(effects
 				(font
@@ -4471,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 88.9 109.2199 0)
 			(effects
 				(font
@@ -4607,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 72.39 144.7799 0)
 			(effects
 				(font
@@ -4677,7 +4677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 154.94 109.2199 0)
 			(effects
 				(font
@@ -4971,7 +4971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 55.88 73.6599 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 154.94 73.6599 0)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 232.41 74.9299 0)
 			(effects
 				(font
@@ -5603,7 +5603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 248.92 74.9299 0)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 215.9 74.9299 0)
 			(effects
 				(font
@@ -5743,7 +5743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 138.43 109.2199 0)
 			(effects
 				(font
@@ -5813,7 +5813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 88.9 73.6599 0)
 			(effects
 				(font
@@ -6186,7 +6186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 39.37 109.2199 0)
 			(effects
 				(font
@@ -6467,7 +6467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 39.37 144.7799 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 138.43 73.6599 0)
 			(effects
 				(font
@@ -6963,7 +6963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 199.39 74.9299 0)
 			(effects
 				(font
@@ -7112,7 +7112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "1k"
 			(at 55.88 144.7799 0)
 			(effects
 				(font
