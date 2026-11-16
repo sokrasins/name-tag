@@ -98,6 +98,7 @@ There are lots of creative possibilities, so have fun with it.
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
 | `docs/assembly/assembly_ibom.html` | Interactive BOM for assembling the back board |
 | `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one page per component |
+| `docs/assembly/assembly_guide_grayscale.pdf` | The same guide for black-and-white printers |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 | `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
 
@@ -123,7 +124,7 @@ the plugin lives elsewhere, and `IBOM_PYTHON` if the python that can import
 KiCad's `pcbnew` module isn't found automatically.
 
 It also runs `scripts/assembly_doc.py` to write the assembly guide described
-below.
+below, in color and grayscale.
 
 ## Regenerating the assembly guide
 
@@ -137,6 +138,7 @@ which reference prefixes go at the end). Mounting holes and the hand-soldered AA
 
 ```sh
 scripts/assembly_doc.py                       # back board -> docs/assembly/assembly_guide.pdf
+scripts/assembly_doc.py --grayscale           # -> docs/assembly/assembly_guide_grayscale.pdf
 scripts/assembly_doc.py path/to/board.kicad_pcb -o out.pdf
 ```
 

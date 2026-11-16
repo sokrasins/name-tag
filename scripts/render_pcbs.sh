@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Render 3D images of both nametag PCBs, export the back board's schematic as a
-# PDF, and generate the back board's interactive BOM (docs/assembly/assembly_ibom.html)
-# and printable assembly guide (docs/assembly/assembly_guide.pdf, via
-# scripts/assembly_doc.py) into docs/ using kicad-cli (KiCad 9+), the
+# PDF, and generate the back board's interactive BOM
+# (docs/assembly/assembly_ibom.html) and printable assembly guides in color and
+# grayscale (docs/assembly/assembly_guide.pdf and assembly_guide_grayscale.pdf,
+# via scripts/assembly_doc.py) into docs/ using kicad-cli (KiCad 9+), the
 # InteractiveHtmlBom plugin and rsvg-convert.
 #
 # Usage: scripts/render_pcbs.sh [top|bottom|both]   (default: top)
@@ -251,12 +252,20 @@ fi
 
 # Printable assembly guide: one page per component, for the back board.
 if [[ -z "$pcbnew_python" ]]; then
-  echo "warning: no python can import pcbnew; skipping docs/assembly/assembly_guide.pdf (set PCBNEW_PYTHON)" >&2
+  echo "warning: no python can import pcbnew; skipping the assembly guides (set PCBNEW_PYTHON)" >&2
 elif ! command -v rsvg-convert >/dev/null 2>&1; then
-  echo "warning: rsvg-convert not found; skipping docs/assembly/assembly_guide.pdf (brew install librsvg)" >&2
+  echo "warning: rsvg-convert not found; skipping the assembly guides (brew install librsvg)" >&2
 else
-  echo "Generating assembly guide -> docs/assembly/assembly_guide.pdf"
-  "$pcbnew_python" -E "$repo_root/scripts/assembly_doc.py" \
-    --output "$assembly_dir/assembly_guide.pdf" \
-    "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
+  for variant in color grayscale; do
+    if [[ "$variant" == color ]]; then
+      guide=assembly_guide.pdf; flags=()
+    else
+      guide=assembly_guide_grayscale.pdf; flags=(--grayscale)
+    fi
+    echo "Generating assembly guide ($variant) -> docs/assembly/$guide"
+    "$pcbnew_python" -E "$repo_root/scripts/assembly_doc.py" \
+      ${flags[@]+"${flags[@]}"} \
+      --output "$assembly_dir/$guide" \
+      "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
+  done
 fi

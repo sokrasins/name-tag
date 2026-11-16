@@ -14,9 +14,12 @@ reference prefix is named with --last (default: R, the resistors) come at the
 end.
 
 Usage:
-    scripts/assembly_doc.py [PCB] [-o OUT.pdf] [--skip REF ...] [--last PREFIX ...]
+    scripts/assembly_doc.py [PCB] [-o OUT.pdf] [--grayscale] [--skip REF ...] [--last PREFIX ...]
 
-Defaults to the back board and docs/assembly/assembly_guide.pdf.
+Defaults to the back board and docs/assembly/assembly_guide.pdf
+(docs/assembly/assembly_guide_grayscale.pdf with --grayscale, which uses a
+palette made for black-and-white printing: light board, dark silkscreen,
+black highlights).
 
 Needs KiCad's pcbnew python module (the script re-runs itself under KiCad's
 bundled python if the current one can't import it; set PCBNEW_PYTHON to
@@ -63,11 +66,33 @@ COLORS = {
     "board": "#2f6b3a",
     "board_edge": "#1d3f23",
     "hole": "#ffffff",
+    "hole_edge": "none",
     "pad": "#c9b27c",
     "silk": "#f4f4f0",
     "placed": "#6d7f73",
     "highlight": "#ff2d2d",
     "pin1": "#9cf59a",
+    "pin1_edge": "none",
+    "label": "#ffffff",
+    "text": "#1a1a1a",
+    "muted": "#666666",
+}
+
+# For black-and-white printers. Not a desaturated copy of COLORS: the board is
+# light to save toner, so the silkscreen is dark, and each marker gets its own
+# clearly separate gray level.
+GRAYSCALE_COLORS = {
+    "page": "#ffffff",
+    "board": "#ececec",
+    "board_edge": "#333333",
+    "hole": "#ffffff",
+    "hole_edge": "#333333",
+    "pad": "#a8a8a8",
+    "silk": "#555555",
+    "placed": "#c8c8c8",
+    "highlight": "#000000",
+    "pin1": "#ffffff",
+    "pin1_edge": "#000000",
     "label": "#ffffff",
     "text": "#1a1a1a",
     "muted": "#666666",
@@ -253,7 +278,8 @@ def render_board(board, side_layer, highlighted, placed, label_size):
                 pos, drill = pad.GetPosition(), pad.GetDrillSize()
                 holes.append((mm(pos.x), mm(pos.y), mm(min(drill.x, drill.y)) / 2))
     for x, y, r in holes:
-        out.append(f'<circle cx="{x:.3f}" cy="{y:.3f}" r="{r:.3f}" fill="{COLORS["hole"]}"/>')
+        out.append(f'<circle cx="{x:.3f}" cy="{y:.3f}" r="{r:.3f}" fill="{COLORS["hole"]}" '
+                   f'stroke="{COLORS["hole_edge"]}" stroke-width="0.3"/>')
 
     # Highlighted parts: courtyard outline, a ring so small parts stand out at
     # a glance, pin 1 marker, and the reference above the ring when the
@@ -277,7 +303,8 @@ def render_board(board, side_layer, highlighted, placed, label_size):
             for pad in fp.Pads():
                 if pad.GetNumber() == "1" and pad.IsOnLayer(copper):
                     out.append(f'<path d="{pad_path(pad, copper)}" fill="{COLORS["pin1"]}" '
-                               f'fill-rule="evenodd"/>')
+                               f'fill-rule="evenodd" stroke="{COLORS["pin1_edge"]}" '
+                               f'stroke-width="{label_size * 0.05:.3f}"/>')
         ref_field = fp.Reference()
         if ref_field.IsVisible() and ref_field.GetLayer() == silk:
             continue
@@ -352,7 +379,7 @@ def page_svg(board, title, step, total, group, placed):
         legend.append((COLORS["placed"], "Placed in earlier steps"))
     for i, (color, label) in enumerate(legend):
         ly = MARGIN + 3 + i * 6
-        t.append(f'<rect x="{lx}" y="{ly}" width="4" height="4" fill="{color}" stroke="#0003" stroke-width="0.2"/>')
+        t.append(f'<rect x="{lx}" y="{ly}" width="4" height="4" fill="{color}" stroke="#0007" stroke-width="0.2"/>')
         t.append(f'<text x="{lx + 6}" y="{ly + 3.3}" font-size="3.6" fill="{COLORS["text"]}">{html.escape(label)}</text>')
 
     t.append(f'<line x1="{MARGIN}" y1="{MARGIN + HEADER_H - 4}" x2="{PAGE_W - MARGIN}" '
@@ -372,7 +399,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("pcb", nargs="?",
                     default=os.path.join(REPO_ROOT, "pcbs/nametag_back/nametag_back.kicad_pcb"))
-    ap.add_argument("-o", "--output", default=os.path.join(REPO_ROOT, "docs/assembly/assembly_guide.pdf"))
+    ap.add_argument("-o", "--output",
+                    help="PDF to write (default: docs/assembly/assembly_guide.pdf, "
+                         "or assembly_guide_grayscale.pdf with --grayscale)")
+    ap.add_argument("--grayscale", action="store_true",
+                    help="use a palette for black-and-white printing")
     ap.add_argument("--skip", nargs="*", default=["BT1"], metavar="REF",
                     help="references to leave out (default: BT1, the AA holder)")
     ap.add_argument("--last", nargs="*", default=["R"], metavar="PREFIX",
@@ -380,6 +411,11 @@ def main():
     ap.add_argument("--title", help="title shown on every page (default: board file name)")
     ap.add_argument("--keep-svg", metavar="DIR", help="also write each page's SVG into DIR")
     args = ap.parse_args()
+    if args.output is None:
+        name = "assembly_guide_grayscale.pdf" if args.grayscale else "assembly_guide.pdf"
+        args.output = os.path.join(REPO_ROOT, "docs/assembly", name)
+    if args.grayscale:
+        COLORS.update(GRAYSCALE_COLORS)
 
     rsvg = shutil.which("rsvg-convert")
     if not rsvg:
