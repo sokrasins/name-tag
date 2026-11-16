@@ -21,9 +21,9 @@ class.
 
 Viewable links are here:
 - [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev3.pdf)
-- [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fname-tag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_back%2Fnametag_back.kicad_pcb)
-- [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fname-tag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
-- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/develop/docs/assembly.html)
+- [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_back%2Fnametag_back.kicad_pcb)
+- [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
+- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly.html)
 
 ## Renders
 
