@@ -52,7 +52,7 @@ battery life estimates.
 | | Back | Front |
 | --- | --- | --- |
 | Size | 100 × 78 mm | 100 × 53 mm |
-| Layers / thickness | 2 / 1.6 mm | 2 / 1.6 mm |
+| Layers / thickness | 2 / 1.6 mm | 2 / 0.8 mm |
 | Components | All electronics | None (4× M3 holes) |
 
 ## Other parts needed
