@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # Render 3D images of both nametag PCBs, export the back board's schematic as a
-# PDF, and generate the back board's interactive BOM (docs/assembly.html) into
-# docs/ using kicad-cli (KiCad 9+) and the InteractiveHtmlBom plugin.
+# PDF, and generate the back board's interactive BOM (docs/assembly/assembly_ibom.html)
+# and printable assembly guide (docs/assembly/assembly_guide.pdf, via
+# scripts/assembly_doc.py) into docs/ using kicad-cli (KiCad 9+), the
+# InteractiveHtmlBom plugin and rsvg-convert.
 #
 # Usage: scripts/render_pcbs.sh [top|bottom|both]   (default: top)
 #
@@ -16,11 +18,12 @@
 #              (default: found in KiCad's 3rd-party plugin directory)
 #   PCBNEW_PYTHON python that can import KiCad's pcbnew module, used to hide
 #              User layers in the back board renders and to run the
-#              interactive BOM (default: the first of KiCad's bundled python,
-#              python3, /usr/bin/python3 that can)
+#              interactive BOM and assembly guide (default: the first of
+#              KiCad's bundled python, python3, /usr/bin/python3 that can)
 #
 # The interactive BOM is skipped with a warning if the plugin or a python with
-# pcbnew can't be found.
+# pcbnew can't be found; the assembly guide is skipped if a python with pcbnew
+# or rsvg-convert can't be found.
 #
 # Renders are cropped to the board with ImageMagick (magick or convert) when it
 # is installed; without it they keep kicad-cli's full-size margins. Cropping
@@ -30,6 +33,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 out_dir="$repo_root/docs"
+assembly_dir="$out_dir/assembly"
 render_dir="$out_dir/renders"
 
 # board name -> .kicad_pcb path (relative to the repo root)
@@ -223,15 +227,16 @@ if [[ -z "$ibom" ]]; then
 fi
 
 if [[ -z "$ibom" ]]; then
-  echo "warning: InteractiveHtmlBom plugin not found; skipping docs/assembly.html (set IBOM)" >&2
+  echo "warning: InteractiveHtmlBom plugin not found; skipping docs/assembly/assembly_ibom.html (set IBOM)" >&2
 elif [[ -z "$pcbnew_python" ]]; then
-  echo "warning: no python can import pcbnew; skipping docs/assembly.html (set PCBNEW_PYTHON)" >&2
+  echo "warning: no python can import pcbnew; skipping docs/assembly/assembly_ibom.html (set PCBNEW_PYTHON)" >&2
 else
-  echo "Generating interactive BOM -> docs/assembly.html"
+  echo "Generating interactive BOM -> docs/assembly/assembly_ibom.html"
+  mkdir -p "$assembly_dir"
   "$pcbnew_python" -E "$ibom" \
     --no-browser \
-    --dest-dir "$out_dir" \
-    --name-format assembly \
+    --dest-dir "$assembly_dir" \
+    --name-format assembly_ibom \
     --dark-mode \
     --show-pads \
     --show-fabrication \
@@ -241,5 +246,17 @@ else
     --bom-view left-right \
     --layer-view F \
     --show-fields "Value,Footprint" \
+    "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
+fi
+
+# Printable assembly guide: one page per component, for the back board.
+if [[ -z "$pcbnew_python" ]]; then
+  echo "warning: no python can import pcbnew; skipping docs/assembly/assembly_guide.pdf (set PCBNEW_PYTHON)" >&2
+elif ! command -v rsvg-convert >/dev/null 2>&1; then
+  echo "warning: rsvg-convert not found; skipping docs/assembly/assembly_guide.pdf (brew install librsvg)" >&2
+else
+  echo "Generating assembly guide -> docs/assembly/assembly_guide.pdf"
+  "$pcbnew_python" -E "$repo_root/scripts/assembly_doc.py" \
+    --output "$assembly_dir/assembly_guide.pdf" \
     "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
 fi

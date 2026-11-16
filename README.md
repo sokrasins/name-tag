@@ -26,7 +26,7 @@ Viewable links are here:
 - [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev3.pdf)
 - [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_back%2Fnametag_back.kicad_pcb)
 - [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
-- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly.html)
+- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly/assembly_ibom.html)
 
 ## Renders
 
@@ -96,7 +96,8 @@ There are lots of creative possibilities, so have fun with it.
 | `pcbs/nametag_back/gerbs/` | Back board Gerbers and drill files |
 | `pcbs/nametag_front/` | Front board KiCad project (layout only, no schematic) |
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
-| `docs/assembly.html` | Interactive BOM for assembling the back board |
+| `docs/assembly/assembly_ibom.html` | Interactive BOM for assembling the back board |
+| `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one page per component |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 | `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
 
@@ -117,9 +118,30 @@ change the output.
 
 If the [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
 plugin is installed through KiCad's Plugin and Content Manager, it also writes
-`docs/assembly.html`. Set `IBOM` to point at `generate_interactive_bom.py` if
+`docs/assembly/assembly_ibom.html`. Set `IBOM` to point at `generate_interactive_bom.py` if
 the plugin lives elsewhere, and `IBOM_PYTHON` if the python that can import
 KiCad's `pcbnew` module isn't found automatically.
+
+It also runs `scripts/assembly_doc.py` to write the assembly guide described
+below.
+
+## Regenerating the assembly guide
+
+`docs/assembly/assembly_guide.pdf` is a printable guide with one page per component
+(each value/footprint group, e.g. all 27 1k resistors). Each page shows the
+back board and its silkscreen with that component's locations highlighted, pin 1 marked for
+polarized parts and parts from earlier pages shaded. Pages run top to bottom,
+left to right across the board, with the resistors last (`--last` changes
+which reference prefixes go at the end). Mounting holes and the hand-soldered AA holder
+(BT1) get no page; `--skip` changes which references are left out.
+
+```sh
+scripts/assembly_doc.py                       # back board -> docs/assembly/assembly_guide.pdf
+scripts/assembly_doc.py path/to/board.kicad_pcb -o out.pdf
+```
+
+It needs KiCad 9+ (for its `pcbnew` python module; set `PCBNEW_PYTHON` if it
+isn't found) and `rsvg-convert` (`brew install librsvg`).
 
 ## Open items
 
