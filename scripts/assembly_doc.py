@@ -10,9 +10,8 @@ pages also read as a running placement order. Footprints excluded from the BOM
 default BT1, the AA holder, which is hand-soldered after reflow).
 
 Pages are ordered by where each component's topmost instance sits on the
-board: top to bottom, then left to right, except that components whose
-reference prefix is named with --last (default: R, the resistors) come at the
-end.
+board: top to bottom, then left to right. Components whose reference prefix
+is named with --last (default: none) are moved to the end.
 
 Usage:
     scripts/assembly_doc.py [PCB] [-o OUT.pdf] [--grayscale] [--skip REF ...] [--last PREFIX ...]
@@ -104,7 +103,7 @@ GRAYSCALE_COLORS = {
 # Plain-English names shown next to each value: by value first, then by
 # reference prefix.
 NAMES_BY_VALUE = {
-    "TPS613222ADBV": "Boost converter",
+    "TPS613221ADBV": "Boost converter",
     "SW_SPDT": "Slide switch",
     "WHITE": "LED",
     "GREEN": "LED",
@@ -431,8 +430,8 @@ def main():
                     help="use a palette for black-and-white printing")
     ap.add_argument("--skip", nargs="*", default=["BT1"], metavar="REF",
                     help="references to leave out (default: BT1, the AA holder)")
-    ap.add_argument("--last", nargs="*", default=["R"], metavar="PREFIX",
-                    help="reference prefixes whose steps go at the end (default: R)")
+    ap.add_argument("--last", nargs="*", default=[], metavar="PREFIX",
+                    help="reference prefixes whose steps go at the end (default: none)")
     ap.add_argument("--title", help="title shown on every page (default: board file name)")
     ap.add_argument("--keep-svg", metavar="DIR", help="also write each sheet's SVG into DIR")
     args = ap.parse_args()

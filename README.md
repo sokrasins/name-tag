@@ -23,7 +23,7 @@ This project has been designed specifically to be built via reflow as part of a
 class.
 
 Viewable links are here:
-- [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev3.pdf)
+- [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev4.pdf)
 - [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_back%2Fnametag_back.kicad_pcb)
 - [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
 - [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly/assembly_ibom.html)
@@ -38,11 +38,14 @@ Viewable links are here:
 
 - **Power:** a single AA cell (Keystone 2460 holder) switched by an SPDT
   slide switch.
-- **Boost converter:** a TI TPS613222A steps the cell up to a +5V rail.
-- **LEDs:** 27× 1206 SMD LEDs (22 white, 5 green). Each one has a 1 kΩ
-  current-limiting resistor to GND.
-- **Brightness:** fixed. This revision (Rev 3) has no brightness control; the
-  LEDs run at about 2.3–2.6 mA each whenever the switch is on.
+- **Boost converter:** a TI TPS613221A steps the cell up to a +3.3V rail.
+- **LEDs:** 27× 1206 SMD LEDs (22 white, 5 green). Each one has its own
+  current-limiting resistor to GND: 270 Ω for the white LEDs, 330 Ω for the
+  green.
+- **Brightness:** fixed. This revision (Rev 4) has no brightness control; the
+  LEDs run at about 2.3–2.6 mA each whenever the switch is on. The board draws
+  about 160–300 mA from the cell, which works out to roughly 8–10 hours on an
+  alkaline AA or an eneloop.
 
 See [docs/power_analysis.md](docs/power_analysis.md) for current draw and
 battery life estimates.
@@ -108,9 +111,3 @@ There are lots of creative possibilities, so have fun with it.
 The renders, schematic PDF, interactive BOM and assembly guides are generated
 by the scripts in `scripts/`. See [scripts/README.md](scripts/README.md) for
 usage.
-
-## Open items
-
-- SW2 (PCM12SMTR) is rated 0.3 A, but the battery current reaches ~245–455 mA
-  over a discharge. See the power analysis; a higher-rated switch may be worth
-  considering.
