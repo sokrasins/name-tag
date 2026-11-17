@@ -1,7 +1,9 @@
 # MAKE Roanoke Name tag
 
 A battery-powered, LED-lit "My name is" name tag for
-MAKE Roanoke, designed in KiCad 9.
+MAKE Roanoke.
+
+![Assembled name tag, powered on](docs/renders/nametag_assembly_render_on.png)
 
 It is made of two stacked PCBs:
 
