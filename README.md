@@ -111,3 +111,14 @@ There are lots of creative possibilities, so have fun with it.
 The renders, schematic PDF, interactive BOM and assembly guides are generated
 by the scripts in `scripts/`. See [scripts/README.md](scripts/README.md) for
 usage.
+
+## Notes
+
+- **No useful battery cutoff:** once running, the boost converter (TPS613221A)
+  keeps drawing power until the cell falls to about 0.4 V, where its
+  undervoltage lockout finally trips. That is far below a safe end-of-discharge
+  voltage (~0.9–1.0 V), so the badge will happily over-discharge the battery.
+  Don't leave it on until it dies: switch it off when it starts to blink or
+  drop out, and replace an alkaline cell or recharge an eneloop promptly. Deep
+  discharge shortens NiMH cell life and makes alkaline cells more likely to
+  leak. See [docs/power_analysis.md](docs/power_analysis.md).
