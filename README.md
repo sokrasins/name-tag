@@ -3,7 +3,7 @@
 A battery-powered, LED-lit "My name is" name tag for
 MAKE Roanoke.
 
-![Assembled name tag, powered on](docs/renders/nametag_assembly_render_on.png)
+![Assembled name tag, powered on](docs/renders/nametag_assembly_render_on_named.png)
 
 It is made of two stacked PCBs:
 
