@@ -125,6 +125,13 @@ NAMES_BY_PREFIX = {
 }
 
 
+# Special instructions printed in the header of every step for a component
+# with this name.
+NOTES_BY_NAME = {
+    "LED": "Note: mount each LED with its green side on the left pad.",
+}
+
+
 def component_name(value, ref, footprint):
     if value in NAMES_BY_VALUE:
         return NAMES_BY_VALUE[value]
@@ -371,6 +378,10 @@ def page_svg(board, title, step, total, group, placed):
         t.append(f'<text x="{x0}" y="{y:.1f}" font-size="3" fill="{COLORS["text"]}">'
                  f'{html.escape(line)}</text>')
         y += 3.8
+    note = NOTES_BY_NAME.get(group["name"])
+    if note:
+        t.append(f'<text x="{x0}" y="{y + 0.4:.1f}" font-size="3.2" font-weight="bold" '
+                 f'fill="{COLORS["highlight"]}">{html.escape(note)}</text>')
 
     # Legend, top right.
     lx = PANEL_W - MARGIN - 38

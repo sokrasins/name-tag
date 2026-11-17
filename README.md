@@ -42,7 +42,7 @@ Viewable links are here:
 - **LEDs:** 27× 1206 SMD LEDs (22 white, 5 green). Each one has a 1 kΩ
   current-limiting resistor to GND.
 - **Brightness:** fixed. This revision (Rev 3) has no brightness control; the
-  LEDs run at about 2.25 mA each whenever the switch is on.
+  LEDs run at about 2.3–2.6 mA each whenever the switch is on.
 
 See [docs/power_analysis.md](docs/power_analysis.md) for current draw and
 battery life estimates.
@@ -111,6 +111,6 @@ usage.
 
 ## Open items
 
-- SW2 (PCM12SMTR) is rated 0.3 A, but the battery current reaches ~230–430 mA
+- SW2 (PCM12SMTR) is rated 0.3 A, but the battery current reaches ~245–455 mA
   over a discharge. See the power analysis; a higher-rated switch may be worth
   considering.

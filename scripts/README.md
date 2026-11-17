@@ -32,7 +32,8 @@ component (each value/footprint group, e.g. all 27 1k resistors). Each step
 fills half a US letter page, so two print per sheet with a dashed line between
 them to cut along. Each step shows the back board and its silkscreen with that
 component's locations highlighted, pin 1 marked for polarized parts and parts
-from earlier steps shaded. Steps run top to bottom, left to right across the
+from earlier steps shaded. LED steps carry a note to mount each LED with its
+green side on the left pad (`NOTES_BY_NAME` in the script). Steps run top to bottom, left to right across the
 board, with the resistors last (`--last` changes which reference prefixes go at
 the end). Mounting holes and the hand-soldered AA holder (BT1) get no step;
 `--skip` changes which references are left out.
