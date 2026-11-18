@@ -364,16 +364,26 @@ def page_svg(board, title, step, total, group, placed):
     refs = group["refs"]
 
     t = []
-    x0 = MARGIN
+    # Step badge, top left: the parts kits are labeled by step number, so it
+    # is the largest thing in the header.
+    badge_w, badge_h = 20.0, HEADER_H - 4.5
+    t.append(f'<rect x="{MARGIN}" y="{MARGIN}" width="{badge_w}" height="{badge_h}" rx="2" '
+             f'fill="{COLORS["text"]}"/>')
+    t.append(f'<text x="{MARGIN + badge_w / 2}" y="{MARGIN + 4.6}" font-size="3" font-weight="bold" '
+             f'letter-spacing="0.4" text-anchor="middle" fill="#ffffff">STEP</text>')
+    t.append(f'<text x="{MARGIN + badge_w / 2}" y="{MARGIN + badge_h - 2.4}" font-size="11.5" '
+             f'font-weight="bold" text-anchor="middle" fill="#ffffff">{step}</text>')
+    x0 = MARGIN + badge_w + 4
     t.append(f'<text x="{x0}" y="{MARGIN + 3}" font-size="3" fill="{COLORS["muted"]}">'
-             f'{html.escape(title)} · Step {step} of {total}</text>')
+             f'{html.escape(title)}</text>')
     t.append(f'<text x="{x0}" y="{MARGIN + 10.5}" font-size="6.5" font-weight="bold" '
              f'fill="{COLORS["text"]}">{html.escape(group["value"])} '
              + (f'<tspan font-weight="normal">{html.escape(group["name"])}</tspan> ' if group["name"] else "") +
              f'<tspan font-size="4.5" font-weight="normal" fill="{COLORS["muted"]}">×{len(refs)}'
              f'{" · bottom side" if mirror else ""}</tspan></text>')
     y = MARGIN + 15.5
-    for line in wrap(", ".join(refs), 125)[:2]:
+    # Starts below the legend's last row, so it can run the full header width.
+    for line in wrap(", ".join(refs), 105)[:2]:
         t.append(f'<text x="{x0}" y="{y:.1f}" font-size="3" fill="{COLORS["text"]}">'
                  f'{html.escape(line)}</text>')
         y += 3.8

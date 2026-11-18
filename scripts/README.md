@@ -30,7 +30,8 @@ and grayscale.
 `pcbs/nametag_back/assembly/assembly_guide.pdf` is a printable guide with one step per
 component (each value/footprint group, e.g. all 27 1k resistors). Each step
 fills half a US letter page, so two print per sheet with a dashed line between
-them to cut along. Each step shows the back board and its silkscreen with that
+them to cut along. A large step-number badge sits in the top left of each
+step, since the parts kits are labeled by step number. Each step shows the back board and its silkscreen with that
 component's locations highlighted, pin 1 marked for polarized parts and parts
 from earlier steps shaded. LED steps carry a note to mount each LED with its
 green side on the left pad (`NOTES_BY_NAME` in the script). Steps run top to bottom, left to right across the
