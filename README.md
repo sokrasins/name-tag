@@ -16,8 +16,8 @@ It is made of two stacked PCBs:
   individual's name light up when the name tag is on.
 
 The boards line up on four M3 mounting holes. They sandwich a 3D-printed
-shroud between them and are held together with M3 nylon screws and nuts. The
-shroud spaces the boards apart so the LED light looks diffused through the
+spacer between them and are held together with M3 nylon screws and nuts. The
+spacer holds the boards apart so the LED light looks diffused through the
 front board, and its walls stop the bright LED light from escaping out the
 sides. A slot at the top of the back board is for a clip.
 
@@ -67,16 +67,16 @@ name tag needs:
 | --- | --- | --- |
 | 4 | M3 × 20 mm nylon screw | |
 | 4 | M3 nylon nut | |
-| 1 | 3D-printed shroud | [mech/nametag_shroud_v1.3mf](mech/nametag_shroud_v1.3mf) |
+| 1 | 3D-printed spacer | [mech/nametag_spacer_v1.3mf](mech/nametag_spacer_v1.3mf) |
 | 1 | Plastic name tag clip | Attaches through the slot at the top of the back board |
 
-This exploded view shows how the boards, shroud, screws and nuts fit together:
+This exploded view shows how the boards, spacer, screws and nuts fit together:
 
-<img src="docs/renders/nametag_exploded_render.png" alt="Exploded view of the name tag: screws, front board, shroud, back board and nuts" width="400">
+<img src="docs/renders/nametag_exploded_render.png" alt="Exploded view of the name tag: screws, front board, spacer, back board and nuts" width="400">
 
-## Printing the shroud
+## Printing the spacer
 
-The shroud prints fine with your favorite standard settings. The
+The spacer prints fine with your favorite standard settings. The
 original was printed in black PLA, which helps block light from leaking out
 the sides, but almost any filament should work.
 
@@ -107,7 +107,7 @@ There are lots of creative possibilities, so have fun with it.
 | `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one step per component, two steps per page |
 | `docs/assembly/assembly_guide_grayscale.pdf` | The same guide for black-and-white printers |
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
-| `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
+| `mech/nametag_spacer_v1.3mf` | 3D-printable spacer |
 | `scripts/` | Scripts that generate the renders, schematic PDF and assembly docs ([usage](scripts/README.md)) |
 
 ## Notes
