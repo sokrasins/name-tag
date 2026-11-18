@@ -30,12 +30,6 @@ Viewable links are here:
 - [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
 - [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly/assembly_ibom.html)
 
-## Renders
-
-![Back PCB](docs/renders/nametag_back_render.png)
-
-![Front PCB](docs/renders/nametag_front_render.png)
-
 ## How it works
 
 - **Power:** a single AA cell (Keystone 2460 holder) switched by an SPDT
@@ -53,6 +47,10 @@ See [docs/power_analysis.md](docs/power_analysis.md) for current draw and
 battery life estimates.
 
 ## Boards
+
+![Back PCB](docs/renders/nametag_back_render.png)
+
+![Front PCB](docs/renders/nametag_front_render.png)
 
 | | Back | Front |
 | --- | --- | --- |
@@ -111,12 +109,6 @@ There are lots of creative possibilities, so have fun with it.
 | `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 | `mech/nametag_shroud_v1.3mf` | 3D-printable shroud |
 | `scripts/` | Scripts that generate the renders, schematic PDF and assembly docs ([usage](scripts/README.md)) |
-
-## Regenerating the docs
-
-The renders, schematic PDF, interactive BOM and assembly guides are generated
-by the scripts in `scripts/`. See [scripts/README.md](scripts/README.md) for
-usage.
 
 ## Notes
 
