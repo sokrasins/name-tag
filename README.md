@@ -72,6 +72,10 @@ name tag needs:
 | 1 | 3D-printed shroud | [mech/nametag_shroud_v1.3mf](mech/nametag_shroud_v1.3mf) |
 | 1 | Plastic name tag clip | Attaches through the slot at the top of the back board |
 
+This exploded view shows how the boards, shroud, screws and nuts fit together:
+
+<img src="docs/renders/nametag_exploded_render.png" alt="Exploded view of the name tag: screws, front board, shroud, back board and nuts" width="400">
+
 ## Printing the shroud
 
 The shroud prints fine with your favorite standard settings. The
