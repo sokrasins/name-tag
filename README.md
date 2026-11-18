@@ -72,7 +72,7 @@ name tag needs:
 
 This exploded view shows how the boards, spacer, screws and nuts fit together:
 
-<img src="docs/renders/nametag_exploded_render.png" alt="Exploded view of the name tag: screws, front board, spacer, back board and nuts" width="400">
+<div align="center"><img src="docs/renders/nametag_exploded_render.png" alt="Exploded view of the name tag: screws, front board, spacer, back board and nuts" width="500"></div>
 
 ## Printing the spacer
 
