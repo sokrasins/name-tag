@@ -6,10 +6,10 @@ Use this list to pack for a name tag class.
 
 ### Kit
 
-- [ ] One kit of every item in the [BOM](../bom.csv), packaged per student
+- [ ] One kit of every item in the [BOM](../../pcbs/nametag_back/bom.csv), packaged per student
 - [ ] 1 AA battery (not listed in the BOM)
 - [ ] Physical assembly doc (printed copies of
-      [../assembly.html](../assembly.html) per part)
+      [the assembly guide](../../pcbs/nametag_back/assembly/assembly_guide.pdf))
 - [ ] 1 pair of tweezers
 
 ## Shared class supplies

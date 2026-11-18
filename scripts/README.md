@@ -10,14 +10,14 @@ scripts/render_pcbs.sh both     # also writes docs/renders/*_render_bottom.png
 ```
 
 It calls `kicad-cli pcb render` for each board and `kicad-cli sch export pdf`
-to write `docs/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
+to write `pcbs/nametag_back/nametag_back_schematic_rev<N>.pdf`, where `<N>` is the
 revision from the schematic's title block. Set `KICAD_CLI` if
 `kicad-cli` isn't on your `PATH`. `QUALITY`, `WIDTH`, `HEIGHT` and `BACKGROUND`
 change the output.
 
 If the [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom)
 plugin is installed through KiCad's Plugin and Content Manager, it also writes
-`docs/assembly/assembly_ibom.html`. Set `IBOM` to point at
+`pcbs/nametag_back/assembly/assembly_ibom.html`. Set `IBOM` to point at
 `generate_interactive_bom.py` if the plugin lives elsewhere, and
 `PCBNEW_PYTHON` if the python that can import KiCad's `pcbnew` module isn't
 found automatically.
@@ -27,7 +27,7 @@ and grayscale.
 
 ## assembly_doc.py: printable assembly guide
 
-`docs/assembly/assembly_guide.pdf` is a printable guide with one step per
+`pcbs/nametag_back/assembly/assembly_guide.pdf` is a printable guide with one step per
 component (each value/footprint group, e.g. all 27 1k resistors). Each step
 fills half a US letter page, so two print per sheet with a dashed line between
 them to cut along. Each step shows the back board and its silkscreen with that
@@ -39,8 +39,8 @@ prefixes, e.g. `--last R`, to the end). Mounting holes and the hand-soldered AA 
 `--skip` changes which references are left out.
 
 ```sh
-scripts/assembly_doc.py                       # back board -> docs/assembly/assembly_guide.pdf
-scripts/assembly_doc.py --grayscale           # -> docs/assembly/assembly_guide_grayscale.pdf
+scripts/assembly_doc.py                       # back board -> pcbs/nametag_back/assembly/assembly_guide.pdf
+scripts/assembly_doc.py --grayscale           # -> pcbs/nametag_back/assembly/assembly_guide_grayscale.pdf
 scripts/assembly_doc.py path/to/board.kicad_pcb -o out.pdf
 ```
 

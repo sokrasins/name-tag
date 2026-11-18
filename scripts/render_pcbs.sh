@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Render 3D images of both nametag PCBs, export the back board's schematic as a
-# PDF, and generate the back board's interactive BOM
-# (docs/assembly/assembly_ibom.html) and printable assembly guides in color and
-# grayscale (docs/assembly/assembly_guide.pdf and assembly_guide_grayscale.pdf,
-# via scripts/assembly_doc.py) into docs/ using kicad-cli (KiCad 9+), the
-# InteractiveHtmlBom plugin and rsvg-convert.
+# PDF (pcbs/nametag_back/), and generate the back board's interactive BOM
+# (pcbs/nametag_back/assembly/assembly_ibom.html) and printable assembly guides
+# in color and grayscale (pcbs/nametag_back/assembly/assembly_guide.pdf and
+# assembly_guide_grayscale.pdf, via scripts/assembly_doc.py) using kicad-cli
+# (KiCad 9+), the InteractiveHtmlBom plugin and rsvg-convert. Renders go to
+# docs/renders/.
 #
 # Usage: scripts/render_pcbs.sh [top|bottom|both]   (default: top)
 #
@@ -33,9 +34,9 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-out_dir="$repo_root/docs"
-assembly_dir="$out_dir/assembly"
-render_dir="$out_dir/renders"
+back_dir="$repo_root/pcbs/nametag_back"
+assembly_dir="$back_dir/assembly"
+render_dir="$repo_root/docs/renders"
 
 # board name -> .kicad_pcb path (relative to the repo root)
 boards=(
@@ -75,7 +76,7 @@ if ! grep -qE '^[[:space:]]+render[[:space:]]' <<<"$pcb_help"; then
   exit 1
 fi
 
-mkdir -p "$out_dir" "$render_dir"
+mkdir -p "$render_dir"
 
 magick_cmd=()
 if command -v magick >/dev/null 2>&1; then
@@ -210,9 +211,9 @@ else
   schematic_pdf="nametag_back_schematic.pdf"
 fi
 
-echo "Exporting schematic -> docs/$schematic_pdf"
+echo "Exporting schematic -> ${back_dir#"$repo_root"/}/$schematic_pdf"
 "$kicad_cli" sch export pdf \
-  --output "$out_dir/$schematic_pdf" \
+  --output "$back_dir/$schematic_pdf" \
   "$repo_root/$schematic"
 
 # Interactive BOM for the back board (the front board has no components).
@@ -228,11 +229,11 @@ if [[ -z "$ibom" ]]; then
 fi
 
 if [[ -z "$ibom" ]]; then
-  echo "warning: InteractiveHtmlBom plugin not found; skipping docs/assembly/assembly_ibom.html (set IBOM)" >&2
+  echo "warning: InteractiveHtmlBom plugin not found; skipping pcbs/nametag_back/assembly/assembly_ibom.html (set IBOM)" >&2
 elif [[ -z "$pcbnew_python" ]]; then
-  echo "warning: no python can import pcbnew; skipping docs/assembly/assembly_ibom.html (set PCBNEW_PYTHON)" >&2
+  echo "warning: no python can import pcbnew; skipping pcbs/nametag_back/assembly/assembly_ibom.html (set PCBNEW_PYTHON)" >&2
 else
-  echo "Generating interactive BOM -> docs/assembly/assembly_ibom.html"
+  echo "Generating interactive BOM -> pcbs/nametag_back/assembly/assembly_ibom.html"
   mkdir -p "$assembly_dir"
   "$pcbnew_python" -E "$ibom" \
     --no-browser \
@@ -247,7 +248,7 @@ else
     --bom-view left-right \
     --layer-view F \
     --show-fields "Value,Footprint" \
-    "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
+    "$back_dir/nametag_back.kicad_pcb"
 fi
 
 # Printable assembly guide: one page per component, for the back board.
@@ -262,10 +263,10 @@ else
     else
       guide=assembly_guide_grayscale.pdf; flags=(--grayscale)
     fi
-    echo "Generating assembly guide ($variant) -> docs/assembly/$guide"
+    echo "Generating assembly guide ($variant) -> pcbs/nametag_back/assembly/$guide"
     "$pcbnew_python" -E "$repo_root/scripts/assembly_doc.py" \
       ${flags[@]+"${flags[@]}"} \
       --output "$assembly_dir/$guide" \
-      "$repo_root/pcbs/nametag_back/nametag_back.kicad_pcb"
+      "$back_dir/nametag_back.kicad_pcb"
   done
 fi

@@ -25,10 +25,10 @@ This project has been designed specifically to be built via reflow as part of a
 class.
 
 Viewable links are here:
-- [Schematic](https://github.com/sokrasins/nametag/blob/main/docs/nametag_back_schematic_rev4.pdf)
+- [Schematic](https://github.com/sokrasins/nametag/blob/main/pcbs/nametag_back/nametag_back_schematic_rev4.pdf)
 - [Back PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_back%2Fnametag_back.kicad_pcb)
 - [Front PCB](https://pcbview.io/?github=https%3A%2F%2Fgithub.com%2Fsokrasins%2Fnametag%2Fblob%2FHEAD%2Fpcbs%2Fnametag_front%2Fnametag_front.kicad_pcb)
-- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/docs/assembly/assembly_ibom.html)
+- [Assembly](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sokrasins/nametag/refs/heads/main/pcbs/nametag_back/assembly/assembly_ibom.html)
 
 ## How it works
 
@@ -43,7 +43,7 @@ Viewable links are here:
   about 160–300 mA from the cell, which works out to roughly 8–10 hours on an
   alkaline AA or an eneloop.
 
-See [docs/power_analysis.md](docs/power_analysis.md) for current draw and
+See [pcbs/power_analysis.md](pcbs/power_analysis.md) for current draw and
 battery life estimates.
 
 ## Boards
@@ -60,7 +60,7 @@ battery life estimates.
 
 ## Other parts needed
 
-Besides the two PCBs and the parts in [docs/bom.csv](docs/bom.csv), each
+Besides the two PCBs and the parts in [pcbs/nametag_back/bom.csv](pcbs/nametag_back/bom.csv), each
 name tag needs:
 
 | Qty | Part | Notes |
@@ -101,13 +101,18 @@ There are lots of creative possibilities, so have fun with it.
 | --- | --- |
 | `pcbs/nametag_back/` | Back board KiCad project (schematic and layout) |
 | `pcbs/nametag_back/gerbs/` | Back board Gerbers and drill files |
+| `pcbs/nametag_back/nametag_back_schematic_rev4.pdf` | Back board schematic PDF |
 | `pcbs/nametag_front/` | Front board KiCad project (layout only, no schematic) |
 | `pcbs/nametag_front/gerbs/` | Front board Gerbers and drill files |
-| `docs/assembly/assembly_ibom.html` | Interactive BOM for assembling the back board |
-| `docs/assembly/assembly_guide.pdf` | Printable assembly guide, one step per component, two steps per page |
-| `docs/assembly/assembly_guide_grayscale.pdf` | The same guide for black-and-white printers |
-| `docs/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
+| `pcbs/datasheets/` | Datasheets for the battery holder and boost converter |
+| `pcbs/power_analysis.md` | Current draw and battery life estimates |
+| `pcbs/nametag_back/assembly/assembly_ibom.html` | Interactive BOM for assembling the back board |
+| `pcbs/nametag_back/assembly/assembly_guide.pdf` | Printable assembly guide, one step per component, two steps per page |
+| `pcbs/nametag_back/assembly/assembly_guide_grayscale.pdf` | The same guide for black-and-white printers |
+| `pcbs/nametag_back/bom.csv` | Bill of materials for the back board, with LCSC / Digi-Key part numbers |
 | `mech/nametag_spacer_v1.3mf` | 3D-printable spacer |
+| `docs/renders/` | Board and assembly renders used in this README |
+| `docs/class_resources/` | Checklist for running a name tag class |
 | `scripts/` | Scripts that generate the renders, schematic PDF and assembly docs ([usage](scripts/README.md)) |
 
 ## Notes
@@ -119,4 +124,4 @@ There are lots of creative possibilities, so have fun with it.
   Don't leave it on until it dies: switch it off when it starts to blink or
   drop out, and replace an alkaline cell or recharge an eneloop promptly. Deep
   discharge shortens NiMH cell life and makes alkaline cells more likely to
-  leak. See [docs/power_analysis.md](docs/power_analysis.md).
+  leak. See [pcbs/power_analysis.md](pcbs/power_analysis.md).

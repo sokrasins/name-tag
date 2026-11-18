@@ -2,7 +2,7 @@
 
 This is an estimate of the back board's (`nametag_back`, Rev 4) current draw
 and battery life. It is worked out from the current schematic, the BOM, the
-TPS61322 datasheet (`docs/datasheets/tps61322.pdf`, SLVSDY5E) and the
+TPS61322 datasheet (`pcbs/datasheets/tps61322.pdf`, SLVSDY5E) and the
 manufacturer listings for the LEDs and switch, plus measured LED forward
 voltages (white 2.68 V, green 2.45 V). Battery current and runtime are still
 calculated, not measured, so confirm them on hardware.

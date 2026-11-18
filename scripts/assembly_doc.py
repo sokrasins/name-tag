@@ -16,8 +16,8 @@ is named with --last (default: none) are moved to the end.
 Usage:
     scripts/assembly_doc.py [PCB] [-o OUT.pdf] [--grayscale] [--skip REF ...] [--last PREFIX ...]
 
-Defaults to the back board and docs/assembly/assembly_guide.pdf
-(docs/assembly/assembly_guide_grayscale.pdf with --grayscale, which uses a
+Defaults to the back board and pcbs/nametag_back/assembly/assembly_guide.pdf
+(pcbs/nametag_back/assembly/assembly_guide_grayscale.pdf with --grayscale, which uses a
 palette made for black-and-white printing: light board, dark silkscreen,
 black highlights).
 
@@ -424,7 +424,7 @@ def main():
     ap.add_argument("pcb", nargs="?",
                     default=os.path.join(REPO_ROOT, "pcbs/nametag_back/nametag_back.kicad_pcb"))
     ap.add_argument("-o", "--output",
-                    help="PDF to write (default: docs/assembly/assembly_guide.pdf, "
+                    help="PDF to write (default: pcbs/nametag_back/assembly/assembly_guide.pdf, "
                          "or assembly_guide_grayscale.pdf with --grayscale)")
     ap.add_argument("--grayscale", action="store_true",
                     help="use a palette for black-and-white printing")
@@ -437,7 +437,7 @@ def main():
     args = ap.parse_args()
     if args.output is None:
         name = "assembly_guide_grayscale.pdf" if args.grayscale else "assembly_guide.pdf"
-        args.output = os.path.join(REPO_ROOT, "docs/assembly", name)
+        args.output = os.path.join(REPO_ROOT, "pcbs/nametag_back/assembly", name)
     if args.grayscale:
         COLORS.update(GRAYSCALE_COLORS)
 
